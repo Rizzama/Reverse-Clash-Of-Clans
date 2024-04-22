@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>C:/Users/Razma/Downloads/GameBackground.jpg</file>
+        <file>GameBackground.jpg</file>
+    </qresource>
+</RCC>

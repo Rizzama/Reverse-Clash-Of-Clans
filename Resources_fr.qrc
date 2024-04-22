@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/Sprites">
+        <file>pngwing.com.png</file>
+        <file>GameBackground.jpg</file>
+        <file>C:/Users/Razma/Downloads/ConnectedWall.png</file>
+        <file>C:/Users/Razma/Downloads/Wall2.png</file>
+        <file>VillageHouseA.png</file>
+        <file>228px-Cannon_Ball.png</file>
+        <file>Cannon21B.png</file>
+    </qresource>
+    <qresource prefix="/Sounds">
+        <file>VillageHouseA.png</file>
+        <file>C:/Users/Razma/Downloads/Enemy Troop Intro.mp3</file>
+        <file>Enemy Walk.mp3</file>
+        <file>C:/Users/Razma/Downloads/Enemy Attack.mp3</file>
+        <file>Cannon Fire.mp3</file>
+        <file>Game Over sound effect.mp3</file>
+    </qresource>
+</RCC>
