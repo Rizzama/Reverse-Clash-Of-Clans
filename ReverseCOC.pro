@@ -14,6 +14,7 @@ SOURCES += \
     building.cpp \
     enemy.cpp \
     game.cpp \
+    health.cpp \
     main.cpp \
     clan.cpp \
     village.cpp
@@ -24,6 +25,7 @@ HEADERS += \
     clan.h \
     enemy.h \
     game.h \
+    health.h \
     village.h
 
 FORMS += \
@@ -35,5 +37,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 RESOURCES += \
+    Demo_Sounds.qrc \
     Resources.qrc \
     Resources_fr.qrc
