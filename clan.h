@@ -6,9 +6,6 @@
 QT_BEGIN_NAMESPACE
 // clan.h
 
-#ifndef CLAN_H
-#define CLAN_H
-
 #include <QMainWindow>
 #include <QString>
 
