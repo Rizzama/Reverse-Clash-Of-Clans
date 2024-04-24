@@ -2,7 +2,7 @@
 
 int Player::id = 0;
 
-Player::Player(const QString& name)
+Player::Player(QString name)
     {
         id++;
         this->name = name;

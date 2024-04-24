@@ -13,7 +13,7 @@ private:
     Clan* clan;
 
 public:
-    Player(const QString& name);
+    Player(QString name);
     int getId() const;
     void setName(const QString& name);
     QString getName() const;

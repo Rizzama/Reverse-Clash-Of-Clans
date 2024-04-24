@@ -4,19 +4,27 @@
 #include <QImage>
 #include <QGraphicsItem>
 #include "game.h"
+#include "clan.h"
 
-Game::Game(QWidget *parent, const QString& playerName)
-    : QGraphicsView(parent), scene(new QGraphicsScene(this)), playerName(playerName) { // Modified constructor
+Game::Game(QWidget *parent, QString playerName): QGraphicsView(parent) { // Modified constructor
+//  scene * = new QGraphicsScene(this);
     setFixedSize(parent->size()); // Set the size to match the parent widget's size
     setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
-
-    scene->setSceneRect(0, 0, parent->size().width(), parent->size().height()); // Set the scene size to match the view's size
-
-    // Directly specify the dimensions of the background image as 1334 x 750
+    int backgroundImageWidth, backgroundImageHeight;
     QImage backgroundImage(":/Sprites/GameBackground.jpg");
-    int backgroundImageWidth = 1334;
-    int backgroundImageHeight = 750;
+
+    if (parent != nullptr){
+        scene->setSceneRect(0, 0, parent->size().width(), parent->size().height()); // Set the scene size to match the view's size
+        backgroundImage = backgroundImage.scaled(parent->size().width(), parent->size().height(), Qt::KeepAspectRatio);
+        backgroundImageWidth = backgroundImage.width();
+        backgroundImageHeight = backgroundImage.height();
+    } else{
+        scene->setSceneRect(0, 0, 800, 600);
+        backgroundImage = backgroundImage.scaled(800, 600, Qt::KeepAspectRatio);
+        backgroundImageWidth = backgroundImage.width();
+        backgroundImageHeight = backgroundImage.height();
+    }
 
     scene->setBackgroundBrush(QBrush(backgroundImage.scaled(backgroundImageWidth, backgroundImageHeight))); // Scale the background image to fit the scene
     setScene(scene);
@@ -87,4 +95,17 @@ void Game::addWalls() {
     QGraphicsPixmapItem *wall8 = new QGraphicsPixmapItem(QPixmap(":/Sprites/Wall2.jpg"));
     wall8->setPos(wallX, wallY + wallHeight);
     scene->addItem(wall8);
+}
+
+void Game::spawnEnemy() { // spawnEnemy(int numEnemies);
+    // Win condition becomes "if (timer == 0 || numEnemies ==0){return Win;}"
+    // if (numEnemies == 0 || timer == 0 && health >= 50){return Win;}
+    // Create a new enemy
+    Enemy *enemy = new Enemy();
+
+    // Add the enemy to the scene
+    scene->addItem(enemy);
+
+    // Play the spawn sound effect
+    enemy->playSpawnSound();
 }

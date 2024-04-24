@@ -1,5 +1,6 @@
 #include "enemy.h"
 #include "game.h" // Include for accessing the Game class
+#include "clan.h"
 #include <QGraphicsScene>
 #include <stdlib.h> // rand() -> to generate really large integer
 #include <QTimer>
