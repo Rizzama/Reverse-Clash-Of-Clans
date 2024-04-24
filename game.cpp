@@ -5,6 +5,7 @@
 #include <QTimer>
 #include <QBrush>
 #include <QImage>
+#include <QGraphicsItem>
 
 Game::Game(QWidget *parent) : QGraphicsView(parent), scene(new QGraphicsScene(this)) {
     // Set the size of the view
@@ -20,8 +21,8 @@ Game::Game(QWidget *parent) : QGraphicsView(parent), scene(new QGraphicsScene(th
     setScene(scene);
 
     // Create the player
-    Player *player = new Player();
-    player->setPixmap(QPixmap(":/Sprites/228px-Cannon_Ball.png"));
+    Player *player = new Player(const QString& name, int level);
+    player->setPixmap(QPixmap(":/Sprites/Cannon21B.png"));
     scene->addItem(player);
     player->setFlag(QGraphicsItem::ItemIsFocusable);
     player->setFocus();
@@ -47,4 +48,8 @@ void Game::spawnEnemy() {
 
     // Play the spawn sound effect
     enemy->playSpawnSound();
+}
+
+void Game::decreaseHealth(){
+    health ->decrease();
 }

@@ -94,7 +94,7 @@ void Enemy::move() {
     for(int i = 0, n = colliding_items.size(); i<n;++i) {
         if(typeid(*(colliding_items[i])) == typeid(Enemy)) {
             // Decrease health and play attack sound
-            game->health->decrease();
+            game->decreaseHealth();
             attack_sound->play();
             // Remove both enemies
             scene()->removeItem(colliding_items[i]);
@@ -104,7 +104,6 @@ void Enemy::move() {
             return;
         }
     }
-
     // Play run sound
     run_sound->play();
 }

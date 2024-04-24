@@ -9,8 +9,10 @@
 
 class Game: public QGraphicsView{
 public:
-    Game();
-
+    Game(QWidget *parent);
+    void spawnEnemy();
+    void decreaseHealth();
+private:
     QGraphicsScene * scene;
     Player * player;
     Health * health;

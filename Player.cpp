@@ -1,15 +1,11 @@
 #include "Player.h"
 
-Player::Player(int id, const QString& name, int level)
+Player::Player(const QString& name, int level)
     {
-        this->id = id;
+        id++;
         this->name = name;
         this->level = level;
         this->clan = nullptr;
-    }
-
-    void Player::setId(int id) {
-        this->id = id;
     }
 
     int Player::getId() const {

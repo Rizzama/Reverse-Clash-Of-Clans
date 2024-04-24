@@ -3,17 +3,17 @@
 
 #include "clan.h"
 #include "QString"
+#include <QGraphicsPixmapItem>
 
-class Player{
+class Player: public QObject, public QGraphicsPixmapItem {
 private:
-    int id;
+    static int id;
     QString name;
     int level;
     Clan* clan;
 
 public:
-    Player(int id, const QString& name, int level);
-    void setId(int id);
+    Player(const QString& name, int level);
     int getId() const;
     void setName(const QString& name);
     QString getName() const;

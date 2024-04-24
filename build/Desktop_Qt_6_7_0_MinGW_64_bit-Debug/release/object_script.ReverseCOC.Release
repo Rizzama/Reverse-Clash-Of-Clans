@@ -1,0 +1,13 @@
+release/Player.o
+release/building.o
+release/enemy.o
+release/game.o
+release/health.o
+release/main.o
+release/clan.o
+release/village.o
+release/qrc_Demo_Sounds.o
+release/qrc_Resources.o
+release/qrc_Resources_fr.o
+release/moc_clan.o
+release/moc_enemy.o
