@@ -1,34 +1,30 @@
+// clan.cpp
+
 #include "clan.h"
-#include "ui_clan.h"
+#include "game.h" // Include for accessing the Game class
+#include "player.h" // Include for accessing the Player class
 
 Clan::Clan(QWidget *parent, int ID, QString ClanName)
-    : QMainWindow(parent)
-    , ui(new Ui::Clan)
-{
+    : QMainWindow(parent), ui(new Ui::Clan), id(ID), clanName(ClanName) {
     ui->setupUi(this);
-    id = ID;
-    clanName = ClanName;
 }
 
-Clan::~Clan()
-{
+Clan::~Clan() {
     delete ui;
 }
 
-void Clan::setId(int NID){
+void Clan::setId(int NID) {
     id = NID;
 }
 
-int Clan::getID(){
+int Clan::getID() {
     return id;
 }
 
-void Clan::setName(QString nClanName){
+void Clan::setName(QString nClanName) {
     clanName = nClanName;
 }
 
-QString Clan::getName(){
+QString Clan::getName() {
     return clanName;
 }
-
-// Rest of the functions to be coded upon presence of the other classes

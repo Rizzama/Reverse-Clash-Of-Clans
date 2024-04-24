@@ -18,9 +18,10 @@ Enemy::Enemy(QGraphicsItem *parent): QObject(), QGraphicsPixmapItem(parent) {
     setPos(random_number, 0);
 
     // *******  Moving the enemies downwards automatically every 40 milliseconds ********
+    // Enemy Walk.mp3 has the walk frequency of 7Hz or the period of every step is 1/7s
     QTimer * timer = new QTimer(this); // Using 'this' as parent
     connect(timer, SIGNAL(timeout()), this, SLOT(move()));
-    timer->start(40);
+    timer->start(143);
 
     //********* Adding Run Sound Effect ***************
     run_output = new QAudioOutput(this); // Using 'this' as parent
@@ -89,10 +90,10 @@ void Enemy::move() {
         return;
     }
 
-    // Check for collisions with other enemies
+    // Check for collisions with the clan
     QList<QGraphicsItem *> colliding_items = collidingItems();
-    for(int i = 0, n = colliding_items.size(); i<n;++i) {
-        if(typeid(*(colliding_items[i])) == typeid(Enemy)) {
+    for(int i = 0, n = colliding_items.size(); i < n; ++i) {
+        if (typeid(*(colliding_items[i])) == typeid(Enemy)) {
             // Decrease health and play attack sound
             game->decreaseHealth();
             attack_sound->play();
@@ -104,6 +105,18 @@ void Enemy::move() {
             return;
         }
     }
+
+    // Check for collisions with walls
+    foreach (QGraphicsItem *item, colliding_items) {
+        if (typeid(*item) == typeid(QGraphicsPixmapItem)) {
+            // Collision with wall detected, decrease health
+            game->decreaseHealth();
+            scene()->removeItem(this);
+            delete this;
+            return;
+        }
+    }
+
     // Play run sound
     run_sound->play();
 }

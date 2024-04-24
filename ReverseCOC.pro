@@ -38,5 +38,4 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     Demo_Sounds.qrc \
-    Resources.qrc \
     Resources_fr.qrc

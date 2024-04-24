@@ -7,16 +7,16 @@
 #include "Player.h"
 #include "health.h"
 
-class Game: public QGraphicsView{
+class Game : public QGraphicsView {
 public:
-    Game(QWidget *parent);
+    Game(QWidget *parent = nullptr, const QString& playerName = "Player1"); // Modified constructor
     void spawnEnemy();
     void decreaseHealth();
 private:
-    QGraphicsScene * scene;
-    Player * player;
-    Health * health;
-
+    QGraphicsScene *scene;
+    Player *player;
+    Health *health;
+    QString playerName; // Added member variable to store the player's name
 };
 
 #endif // GAME_H

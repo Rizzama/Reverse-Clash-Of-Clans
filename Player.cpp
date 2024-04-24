@@ -1,10 +1,12 @@
 #include "Player.h"
 
-Player::Player(const QString& name, int level)
+int Player::id = 0;
+
+Player::Player(const QString& name)
     {
         id++;
         this->name = name;
-        this->level = level;
+        this->level = 0;
         this->clan = nullptr;
     }
 
