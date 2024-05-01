@@ -53,5 +53,4 @@ void Health::gameover()
 
     scene()->addItem (gameover);
     womp_womp_sound ->play();
-
 }
