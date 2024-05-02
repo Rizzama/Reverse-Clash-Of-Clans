@@ -101,4 +101,10 @@ void Game::addVillageHouse() {
     village1->setPos(villageX+140, villageY+80);
     village1->setScale(0.1); // Adjust the scale of the village item
     scene->addItem(village1);
+
+    // Create and add the village house item to the scene
+    QGraphicsPixmapItem *village2 = new QGraphicsPixmapItem(QPixmap(":/Sprites/Goblin_Hut_House.png"));
+    village2->setPos(villageX+80, villageY+120);
+    village2->setScale(0.8);
+    scene->addItem(village2);
 }

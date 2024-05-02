@@ -8,6 +8,7 @@
         <file>WALL_A.png</file>
         <file>WALL_B.png</file>
         <file>Full_Walls.png</file>
+        <file>Goblin_Hut_House.png</file>
     </qresource>
     <qresource prefix="/Sounds">
         <file>VillageHouseA.png</file>
