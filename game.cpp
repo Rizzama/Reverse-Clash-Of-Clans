@@ -80,4 +80,8 @@ void Game::addWalls() {
     wall1->setPos(wallX - 50, wallY - 50); // Adjust the position to surround the player
     wall1->setScale(0.5); // Adjust the scale of the wall item if necessary
     scene->addItem(wall1);
+
+    // Ensure the player/cannon is drawn on top of the walls
+    player->setZValue(1); // Set the stacking order of the player/cannon
 }
+
