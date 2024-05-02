@@ -5,8 +5,9 @@
         <file>VillageHouseA.png</file>
         <file>228px-Cannon_Ball.png</file>
         <file>Cannon21B.png</file>
-        <file>ConnectedWall.png</file>
-        <file>Wall2.png</file>
+        <file>WALL_A.png</file>
+        <file>WALL_B.png</file>
+        <file>Full_Walls.png</file>
     </qresource>
     <qresource prefix="/Sounds">
         <file>VillageHouseA.png</file>
