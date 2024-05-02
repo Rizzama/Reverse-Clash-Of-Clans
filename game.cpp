@@ -77,7 +77,7 @@ void Game::addWalls() {
 
     // Create and add the connected walls around the player cannon
     QGraphicsPixmapItem *wall1 = new QGraphicsPixmapItem(QPixmap(":/Sprites/Full_Walls.png"));
-    wall1->setPos(wallX - 50, wallY - 50); // Adjust the position to surround the player
+    wall1->setPos(wallX - 85, wallY - 85); // Adjust the position to surround the player
     wall1->setScale(0.5); // Adjust the scale of the wall item if necessary
     scene->addItem(wall1);
 
