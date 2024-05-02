@@ -21,6 +21,7 @@ public:
     int getLevel() const;
     void setClan(Clan* clan);
     Clan* getClan() const;
+    void createEnemy();
 
 public slots:
     void keyPressEvent(QKeyEvent *Event);

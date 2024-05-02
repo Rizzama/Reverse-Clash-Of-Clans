@@ -1,4 +1,7 @@
 #include "Player.h"
+#include <QKeyEvent>
+#include "enemy.h"
+#include "qgraphicsscene.h"
 
 int Player::id = 0;
 
@@ -45,7 +48,21 @@ Clan* Player::getClan() const
 }
 
 void Player::keyPressEvent(QKeyEvent *Event){
-    if(Event->key == QT::Key_Left){
+    if (Event->key() == Qt::Key_Left){
+
+    }else if (Event->key() == Qt::Key_Right){
+
+    }else if (Event->key() == Qt::Key_Down){
+
+    }else if(Event->key() == Qt::Key_Up){
+
+    }else if(Event->key() == Qt::Key_Space){
 
     }
+}
+
+void Player::createEnemy()
+{ Enemy* enemy = new Enemy();
+    scene()->addItem(enemy);
+
 }
