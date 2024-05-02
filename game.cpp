@@ -49,6 +49,7 @@ Game::Game(QWidget *parent, const QString& playerName)
     }else{
         player->setPos(400-100, 300-82); // Center the player on the screen
     }
+
     QTimer *timer = new QTimer(this);
     connect(timer, SIGNAL(timeout()), this, SLOT(spawnEnemy()));
     timer->start(2000);
@@ -85,6 +86,7 @@ void Game::addWalls() {
     // Ensure the player/cannon is drawn on top of the walls
     player->setZValue(1); // Set the stacking order of the player/cannon
 }
+
 void Game::addVillageHouse() {
     // Define dimensions for the village house
     int villageWidth = 100; // Adjust as needed
@@ -108,3 +110,5 @@ void Game::addVillageHouse() {
     village2->setScale(0.8);
     scene->addItem(village2);
 }
+
+

@@ -21,6 +21,9 @@ public:
     int getLevel() const;
     void setClan(Clan* clan);
     Clan* getClan() const;
+
+public slots:
+    void keyPressEvent(QKeyEvent *Event);
 };
 
 #endif // PLAYER_H

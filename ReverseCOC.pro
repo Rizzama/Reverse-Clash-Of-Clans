@@ -12,6 +12,7 @@ CONFIG += c++17
 SOURCES += \
     Player.cpp \
     building.cpp \
+    cannonball.cpp \
     enemy.cpp \
     game.cpp \
     health.cpp \
@@ -22,6 +23,7 @@ SOURCES += \
 HEADERS += \
     Player.h \
     building.h \
+    cannonball.h \
     clan.h \
     enemy.h \
     game.h \

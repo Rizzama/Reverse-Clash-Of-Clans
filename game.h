@@ -14,6 +14,7 @@ public:
     void decreaseHealth();
     void addWalls();
     void addVillageHouse();
+
 private:
     QGraphicsScene *scene;
     Player *player;
