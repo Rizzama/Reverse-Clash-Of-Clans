@@ -58,6 +58,7 @@ Game::Game(QWidget *parent, const QString& playerName)
     scene->addItem(health);
 
     addWalls(); // Call the function to add walls
+    addVillageHouse();
 }
 
 void Game::decreaseHealth(){
@@ -84,4 +85,20 @@ void Game::addWalls() {
     // Ensure the player/cannon is drawn on top of the walls
     player->setZValue(1); // Set the stacking order of the player/cannon
 }
+void Game::addVillageHouse() {
+    // Define dimensions for the village house
+    int villageWidth = 100; // Adjust as needed
+    int villageHeight = 100; // Adjust as needed
 
+    // Calculate the coordinates for the village house
+    int centerX = player->x(); // Get the center x-coordinate of the player
+    int centerY = player->y(); // Get the center y-coordinate of the player
+    int villageX = centerX - villageWidth / 2; // Calculate the x-coordinate for the village house
+    int villageY = centerY - villageHeight / 2; // Calculate the y-coordinate for the village house
+
+    // Create and add the village house item to the scene
+    QGraphicsPixmapItem *village1 = new QGraphicsPixmapItem(QPixmap(":/Sprites/VillageHouseA.png"));
+    village1->setPos(villageX+140, villageY+80);
+    village1->setScale(0.1); // Adjust the scale of the village item
+    scene->addItem(village1);
+}
