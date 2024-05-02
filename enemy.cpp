@@ -11,7 +11,7 @@ extern Game * game;
 
 Enemy::Enemy(QGraphicsItem *parent): QObject(), QGraphicsPixmapItem(parent) {
     // *******  Setting the size of the enemy ********
-    setPixmap(QPixmap(":/Sprites/pngwing.com.png"));
+    setPixmap(QPixmap(":/Sprites/Enemy.png"));
 
     // *******  Setting the position of the enemy within the view dimensions ********
     int random_number = rand() % 700;
