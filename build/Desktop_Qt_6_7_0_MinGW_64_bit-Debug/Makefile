@@ -417,7 +417,6 @@ Makefile: ../../ReverseCOC.pro C:/QT/6.7.0/mingw_64/mkspecs/win32-g++/qmake.conf
 		C:/QT/6.7.0/mingw_64/lib/Qt6EntryPoint.prl \
 		C:/QT/6.7.0/mingw_64/mkspecs/features/build_pass.prf \
 		../../Demo_Sounds.qrc \
-		../../Resources.qrc \
 		../../Resources_fr.qrc
 	$(QMAKE) -o Makefile ..\..\ReverseCOC.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 C:/QT/6.7.0/mingw_64/mkspecs/features/spec_pre.prf:
@@ -767,7 +766,6 @@ C:/QT/6.7.0/mingw_64/lib/Qt6Core.prl:
 C:/QT/6.7.0/mingw_64/lib/Qt6EntryPoint.prl:
 C:/QT/6.7.0/mingw_64/mkspecs/features/build_pass.prf:
 ../../Demo_Sounds.qrc:
-../../Resources.qrc:
 ../../Resources_fr.qrc:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ..\..\ReverseCOC.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
