@@ -9,9 +9,10 @@
 
 class Game : public QGraphicsView {
 public:
-    Game(QWidget *parent = nullptr, const QString& playerName = "Player1"); // Modified constructor
+    Game(QWidget *parent, const QString& playerName = "Player1"); // Modified constructor
     void spawnEnemy();
     void decreaseHealth();
+    void addWalls();
 private:
     QGraphicsScene *scene;
     Player *player;
