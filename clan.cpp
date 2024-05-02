@@ -2,9 +2,8 @@
 
 #include "clan.h"
 #include "game.h" // Include for accessing the Game class
-#include "Player.h" // Include for accessing the Player class
+#include "player.h" // Include for accessing the Player class
 #include "ui_clan.h"
-
 Clan::Clan(QWidget *parent, int ID, QString ClanName)
     : QMainWindow(parent), ui(new Ui::Clan), id(ID), clanName(ClanName) {
     ui->setupUi(this);
