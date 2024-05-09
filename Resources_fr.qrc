@@ -2,7 +2,6 @@
     <qresource prefix="/Sprites">
         <file>Enemy.png</file>
         <file>GameBackground.jpg</file>
-        <file>VillageHouseA.png</file>
         <file>228px-Cannon_Ball.png</file>
         <file>Cannon21B.png</file>
         <file>WALL_A.png</file>
@@ -15,14 +14,14 @@
         <file>Cannon Up.png</file>
         <file>C:/Users/Razma/Downloads/output-onlinepngtools.png</file>
         <file>output-onlinepngtools.png</file>
+        <file>VillageHouseA.png</file>
     </qresource>
     <qresource prefix="/Sounds">
-        <file>VillageHouseA.png</file>
         <file>Enemy Walk.mp3</file>
-        <file>Cannon Fire.mp3</file>
         <file>Game Over sound effect.mp3</file>
         <file>Enemy Troop Intro.mp3</file>
         <file>Enemy_Attack_Demo.mpeg</file>
         <file>barbarian-death-cry---clash-of-clans-made-with-Voicemod.mp3</file>
+        <file>CannonFire.mp3</file>
     </qresource>
 </RCC>

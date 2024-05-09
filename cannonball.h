@@ -4,6 +4,7 @@
 #include <QGraphicsPixmapItem>
 #include <QObject>
 #include <QMediaPLayer>
+#include <QKeyEvent>
 
 class Cannonball: public QObject, public QGraphicsPixmapItem
 {
@@ -15,7 +16,7 @@ private:
 public:
     Cannonball(QGraphicsItem *parent = 0);
 public slots:
-    void movebullet();
+    void movebullet(QKeyEvent *Event);
 };
 
 #endif // CANNONBALL_H

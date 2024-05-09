@@ -1,4 +1,5 @@
 #include "cannonball.h"
+#include <QKeyEvent>
 #include <QTimer>
 #include "game.h"
 #include <QGraphicsScene>
@@ -15,7 +16,7 @@ extern Game * game;
 
 Cannonball::Cannonball(QGraphicsItem *parent):QObject(), QGraphicsPixmapItem(parent) {
 
-    setPixmap(QPixmap(":/Sprites/228px-Cannon_Ball.png"));
+    this->setPixmap(QPixmap(":/Sprites/228px-Cannon_Ball.png"));
 
     //****** Creating Enemy Death Sound Effect *********
     enemy_death_output = new QAudioOutput();
@@ -32,7 +33,7 @@ Cannonball::Cannonball(QGraphicsItem *parent):QObject(), QGraphicsPixmapItem(par
 
 // Move function is used to 1-  move the bullet upwards
 // 2- Handle the collision of the bullets with enemies
-void Cannonball::movebullet()
+void Cannonball::movebullet(QKeyEvent *Event)
 {
     // *******  Getting the colliding items with the Bullet ********
     // ******* Adding Sound effect for destroyed enemy *******
@@ -53,16 +54,16 @@ void Cannonball::movebullet()
         }
     }
 
+// Add despawn at the wall
 
-
-    // *******  Moving the bullets ********
-// To be redone
-    setPos(x(),y()-10);
-
-    if(pos().y() < 0)
-    {
-        scene()->removeItem(this);
-        delete this;
-
+// *******  Moving the bullets ********
+    if (Event->key() == Qt::Key_Left) {
+        this->setPos(x() - 10, y());
+    } else if (Event->key() == Qt::Key_Right) {
+        this->setPos(x() + 10, y());
+    } else if (Event->key() == Qt::Key_Down) {
+        this->setPos(x(), y() + 10);
+    } else if (Event->key() == Qt::Key_Up) {
+        this->setPos(x(), y() - 10);
     }
 }

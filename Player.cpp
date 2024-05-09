@@ -3,6 +3,7 @@
 #include "enemy.h"
 #include "qgraphicsscene.h"
 #include <QDebug>
+#include "cannonball.h"
 
 int Player::id = 0;
 
@@ -62,7 +63,11 @@ void Player::keyPressEvent(QKeyEvent *Event){
         this->setPos(400 - cannonLeft.width() / 1.55, 300 - cannonLeft.height() / 1.5); // Center the player on the screen
         // Don't ask, that's what worked
         if(Event->key() == Qt::Key_Space){
-
+            Cannonball * buller = new Cannonball;
+            buller->setPixmap(QPixmap(":/Sprites/228px-Cannon_Ball.png"));
+            buller->setPos(400 - cannonLeft.width() / 1.55, 300 - cannonLeft.height() / 1.55);
+            scene()->addItem(buller);
+            buller->movebullet(Event);
         }
     }else if (Event->key() == Qt::Key_Right){
         QPixmap cannonRight(":/Sprites/Cannon Right.png");
@@ -71,7 +76,11 @@ void Player::keyPressEvent(QKeyEvent *Event){
         this->setPixmap(cannonRight);
         this->setPos(400 - cannonRight.width() / 1.55, 300 - cannonRight.height() / 1.55); // Center the player on the screen
         if(Event->key() == Qt::Key_Space){
-
+            Cannonball * buller = new Cannonball;
+            buller->setPixmap(QPixmap(":/Sprites/228px-Cannon_Ball.png"));
+            buller->setPos(400 - cannonRight.width() / 1.55, 300 - cannonRight.height() / 1.55);
+            scene()->addItem(buller);
+            buller->movebullet(Event);
         }
     }else if (Event->key() == Qt::Key_Down){
         QPixmap cannonDown(":/Sprites/Cannon Down.png");
@@ -80,7 +89,11 @@ void Player::keyPressEvent(QKeyEvent *Event){
         this->setPixmap(cannonDown);
         this->setPos(400 - cannonDown.width() / 1.55, 300 - cannonDown.height() / 1.55); // Center the player on the screen
         if(Event->key() == Qt::Key_Space){
-
+            Cannonball * buller = new Cannonball;
+            buller->setPixmap(QPixmap(":/Sprites/228px-Cannon_Ball.png"));
+            buller->setPos(400 - cannonDown.width() / 1.55, 300 - cannonDown.height() / 1.55);
+            scene()->addItem(buller);
+            buller->movebullet(Event);
         }
     }else if(Event->key() == Qt::Key_Up){
         QPixmap cannonUp(":/Sprites/Cannon Up.png");
@@ -89,7 +102,11 @@ void Player::keyPressEvent(QKeyEvent *Event){
         this->setPixmap(cannonUp);
         this->setPos(400 - cannonUp.width() / 1.55, 300 - cannonUp.height() / 1.55); // Center the player on the screen
         if(Event->key() == Qt::Key_Space){
-
+            Cannonball * buller = new Cannonball();
+            buller->setPixmap(QPixmap(":/Sprites/228px-Cannon_Ball.png"));
+            buller->setPos(400 - cannonUp.width() / 1.55, 300 - cannonUp.height() / 1.55);
+            scene()->addItem(buller);
+            buller->movebullet(Event);
         }
     }
 
