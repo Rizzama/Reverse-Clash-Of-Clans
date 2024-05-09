@@ -9,6 +9,12 @@
         <file>WALL_B.png</file>
         <file>Full_Walls.png</file>
         <file>Goblin_Hut_House.png</file>
+        <file>Cannon Down.png</file>
+        <file>Cannon Left.png</file>
+        <file>Cannon Right.png</file>
+        <file>Cannon Up.png</file>
+        <file>C:/Users/Razma/Downloads/output-onlinepngtools.png</file>
+        <file>output-onlinepngtools.png</file>
     </qresource>
     <qresource prefix="/Sounds">
         <file>VillageHouseA.png</file>

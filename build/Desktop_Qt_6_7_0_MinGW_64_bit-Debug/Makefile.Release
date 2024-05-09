@@ -151,14 +151,20 @@ release/qrc_Resources_fr.cpp: ../../Resources_fr.qrc \
 		../../Enemy\ Walk.mp3 \
 		../../Game\ Over\ sound\ effect.mp3 \
 		../../Enemy.png \
+		../../output-onlinepngtools.png \
 		../../Cannon21B.png \
 		../../WALL_A.png \
 		../../WALL_B.png \
 		../../Goblin_Hut_House.png \
+		../../Cannon\ Up.png \
 		../../VillageHouseA.png \
 		../../Full_Walls.png \
 		../../228px-Cannon_Ball.png \
-		../../GameBackground.jpg
+		../../GameBackground.jpg \
+		../../Cannon\ Down.png \
+		../../Cannon\ Left.png \
+		../../Cannon\ Right.png \
+		C:/Users/Razma/Downloads/output-onlinepngtools.png
 	C:\QT\6.7.0\mingw_64\bin\rcc.exe -name Resources_fr --no-zstd ..\..\Resources_fr.qrc -o release\qrc_Resources_fr.cpp
 
 compiler_moc_predefs_make_all: release/moc_predefs.h
@@ -310,6 +316,16 @@ release/moc_cannonball.cpp: ../../cannonball.h \
 		C:/QT/6.7.0/mingw_64/include/QtGui/qimage.h \
 		C:/QT/6.7.0/mingw_64/include/QtGui/qpixelformat.h \
 		C:/QT/6.7.0/mingw_64/include/QtCore/QObject \
+		C:/QT/6.7.0/mingw_64/include/QtMultimedia/QMediaPLayer \
+		C:/QT/6.7.0/mingw_64/include/QtMultimedia/qmediaplayer.h \
+		C:/QT/6.7.0/mingw_64/include/QtCore/qurl.h \
+		C:/QT/6.7.0/mingw_64/include/QtMultimedia/qtmultimediaglobal.h \
+		C:/QT/6.7.0/mingw_64/include/QtMultimedia/qtmultimedia-config.h \
+		C:/QT/6.7.0/mingw_64/include/QtMultimedia/qtmultimediaexports.h \
+		C:/QT/6.7.0/mingw_64/include/QtMultimedia/qmediaenumdebug.h \
+		C:/QT/6.7.0/mingw_64/include/QtCore/qmetaobject.h \
+		C:/QT/6.7.0/mingw_64/include/QtMultimedia/qtaudio.h \
+		C:/QT/6.7.0/mingw_64/include/QtMultimedia/qaudio.h \
 		release/moc_predefs.h \
 		C:/QT/6.7.0/mingw_64/bin/moc.exe
 	C:\QT\6.7.0\mingw_64\bin\moc.exe $(DEFINES) --include D:/AUC-CPP/Reverse-Clash-of-Clans/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/QT/6.7.0/mingw_64/mkspecs/win32-g++ -ID:/AUC-CPP/Reverse-Clash-of-Clans -IC:/QT/6.7.0/mingw_64/include -IC:/QT/6.7.0/mingw_64/include/QtMultimedia -IC:/QT/6.7.0/mingw_64/include/QtWidgets -IC:/QT/6.7.0/mingw_64/include/QtGui -IC:/QT/6.7.0/mingw_64/include/QtNetwork -IC:/QT/6.7.0/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\..\cannonball.h -o release\moc_cannonball.cpp
@@ -895,7 +911,8 @@ release/Player.o: ../../Player.cpp ../../Player.h \
 		C:/QT/6.7.0/mingw_64/include/QtMultimedia/QAudioOutput \
 		C:/QT/6.7.0/mingw_64/include/QtMultimedia/qaudiooutput.h \
 		C:/QT/6.7.0/mingw_64/include/QtWidgets/qgraphicsscene.h \
-		C:/QT/6.7.0/mingw_64/include/QtGui/qpen.h
+		C:/QT/6.7.0/mingw_64/include/QtGui/qpen.h \
+		C:/QT/6.7.0/mingw_64/include/QtCore/QDebug
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\Player.o ..\..\Player.cpp
 
 release/building.o: ../../building.cpp ../../building.h \
@@ -1114,6 +1131,16 @@ release/cannonball.o: ../../cannonball.cpp ../../cannonball.h \
 		C:/QT/6.7.0/mingw_64/include/QtGui/qimage.h \
 		C:/QT/6.7.0/mingw_64/include/QtGui/qpixelformat.h \
 		C:/QT/6.7.0/mingw_64/include/QtCore/QObject \
+		C:/QT/6.7.0/mingw_64/include/QtMultimedia/QMediaPLayer \
+		C:/QT/6.7.0/mingw_64/include/QtMultimedia/qmediaplayer.h \
+		C:/QT/6.7.0/mingw_64/include/QtCore/qurl.h \
+		C:/QT/6.7.0/mingw_64/include/QtMultimedia/qtmultimediaglobal.h \
+		C:/QT/6.7.0/mingw_64/include/QtMultimedia/qtmultimedia-config.h \
+		C:/QT/6.7.0/mingw_64/include/QtMultimedia/qtmultimediaexports.h \
+		C:/QT/6.7.0/mingw_64/include/QtMultimedia/qmediaenumdebug.h \
+		C:/QT/6.7.0/mingw_64/include/QtCore/qmetaobject.h \
+		C:/QT/6.7.0/mingw_64/include/QtMultimedia/qtaudio.h \
+		C:/QT/6.7.0/mingw_64/include/QtMultimedia/qaudio.h \
 		C:/QT/6.7.0/mingw_64/include/QtCore/QTimer \
 		C:/QT/6.7.0/mingw_64/include/QtCore/qtimer.h \
 		C:/QT/6.7.0/mingw_64/include/QtCore/qbasictimer.h \
@@ -1141,7 +1168,6 @@ release/cannonball.o: ../../cannonball.cpp ../../cannonball.h \
 		C:/QT/6.7.0/mingw_64/include/QtGui/qbitmap.h \
 		C:/QT/6.7.0/mingw_64/include/QtGui/qevent.h \
 		C:/QT/6.7.0/mingw_64/include/QtCore/qiodevice.h \
-		C:/QT/6.7.0/mingw_64/include/QtCore/qurl.h \
 		C:/QT/6.7.0/mingw_64/include/QtGui/qeventpoint.h \
 		C:/QT/6.7.0/mingw_64/include/QtGui/qvector2d.h \
 		C:/QT/6.7.0/mingw_64/include/QtGui/qvectornd.h \
@@ -1186,15 +1212,6 @@ release/cannonball.o: ../../cannonball.cpp ../../cannonball.h \
 		C:/QT/6.7.0/mingw_64/include/QtCore/QString \
 		../../health.h \
 		C:/QT/6.7.0/mingw_64/include/QtWidgets/QGraphicsTextItem \
-		C:/QT/6.7.0/mingw_64/include/QtMultimedia/QMediaPLayer \
-		C:/QT/6.7.0/mingw_64/include/QtMultimedia/qmediaplayer.h \
-		C:/QT/6.7.0/mingw_64/include/QtMultimedia/qtmultimediaglobal.h \
-		C:/QT/6.7.0/mingw_64/include/QtMultimedia/qtmultimedia-config.h \
-		C:/QT/6.7.0/mingw_64/include/QtMultimedia/qtmultimediaexports.h \
-		C:/QT/6.7.0/mingw_64/include/QtMultimedia/qmediaenumdebug.h \
-		C:/QT/6.7.0/mingw_64/include/QtCore/qmetaobject.h \
-		C:/QT/6.7.0/mingw_64/include/QtMultimedia/qtaudio.h \
-		C:/QT/6.7.0/mingw_64/include/QtMultimedia/qaudio.h \
 		C:/QT/6.7.0/mingw_64/include/QtMultimedia/QAudioOutput \
 		C:/QT/6.7.0/mingw_64/include/QtMultimedia/qaudiooutput.h \
 		../../enemy.h \
@@ -1952,7 +1969,8 @@ release/game.o: ../../game.cpp ../../enemy.h \
 		C:/QT/6.7.0/mingw_64/include/QtWidgets/qtabwidget.h \
 		C:/QT/6.7.0/mingw_64/include/QtCore/QString \
 		../../health.h \
-		C:/QT/6.7.0/mingw_64/include/QtWidgets/QGraphicsTextItem
+		C:/QT/6.7.0/mingw_64/include/QtWidgets/QGraphicsTextItem \
+		C:/QT/6.7.0/mingw_64/include/QtCore/qDebug
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\game.o ..\..\game.cpp
 
 release/health.o: ../../health.cpp ../../health.h \

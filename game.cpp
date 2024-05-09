@@ -4,6 +4,7 @@
 #include <QImage>
 #include <QGraphicsItem>
 #include "game.h"
+#include <qDebug>
 
 Game::Game(QWidget *parent, const QString& playerName)
     : QGraphicsView(parent), scene(new QGraphicsScene(this)), playerName(playerName) { // Modified constructor
@@ -44,6 +45,8 @@ Game::Game(QWidget *parent, const QString& playerName)
     scene->addItem(player);
     player->setFlag(QGraphicsItem::ItemIsFocusable);
     player->setFocus();
+//    QPixmap playerPixmap = player->pixmap();
+//    qDebug() << playerPixmap.size();
     if (parent){
         player->setPos(parent->size().width() / 2, parent->size().height() / 2); // Center the player on the screen
     }else{
