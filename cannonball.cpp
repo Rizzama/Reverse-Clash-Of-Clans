@@ -17,9 +17,9 @@ extern Game * game;
 Cannonball::Cannonball(QGraphicsItem *parent, qreal dx, qreal dy)
     : QObject(), QGraphicsPixmapItem(parent), dx(dx), dy(dy) {
     QPixmap cannonBall(":/Sprites/228px-Cannon_Ball.png");
-    QPixmap ball = cannonBall.scaled(cannonBall.width() / 5.5, cannonBall.height() / 5.5);
+    QPixmap ball = cannonBall.scaled(cannonBall.width() / 2, cannonBall.height() / 2);
     setPixmap(ball);
-    QTimer *timer = new QTimer(this);
+    QTimer *timer = new QTimer();
     connect(timer, SIGNAL(timeout()), this, SLOT(movebullet()));
     timer->start(50); // Adjust the bullet speed
 }
@@ -34,7 +34,8 @@ Cannonball::Cannonball(QGraphicsItem *parent, qreal dx, qreal dy)
 
 void Cannonball::movebullet() {
     // Move the bullet based on the stored movement directions
-    setPos(x() + dx, y() + dy);
+    setPos(x() + dx, y() + dy); // This happens one time, so it's gonna move 10 pixels, and never move again
+    // I'm thinking it needs to be a loop until it reaches the wall.
 
     // Check for collisions with enemies
     QList<QGraphicsItem *> colliding_items = collidingItems();
@@ -54,8 +55,7 @@ void Cannonball::movebullet() {
     }
 
     // Delete the bullet if it goes out of the scene boundaries
-    if (!scene()->sceneRect().contains(pos())) {
         scene()->removeItem(this);
         delete this;
-    }
+
 }
