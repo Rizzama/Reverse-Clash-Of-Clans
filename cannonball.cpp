@@ -23,27 +23,33 @@ Cannonball::Cannonball(QGraphicsItem *parent, qreal dx, qreal dy)
     QTimer *timer = new QTimer(this);
     connect(timer, SIGNAL(timeout()), this, SLOT(movebullet()));
     timer->start(50); // Adjust the bullet speed
+    this->movebullet();
 }
 
 void Cannonball::keyPressEvent(QKeyEvent *event) {
     if (event->key() == Qt::Key_Left) {
-        dx = -5; // Adjust the speed as needed
+        dx = -10;
         dy = 0;
     } else if (event->key() == Qt::Key_Right) {
-        dx = 5;
+        dx = 10;
         dy = 0;
     } else if (event->key() == Qt::Key_Up) {
         dx = 0;
-        dy = -5;
+        dy = -10;
     } else if (event->key() == Qt::Key_Down) {
         dx = 0;
-        dy = 5;
+        dy = 10;
+    }
+    // This if condition is never called
+    if(event->key() == Qt::Key_Space){
+        this->movebullet();
     }
 }
 
 void Cannonball::movebullet() {
+
     // Move the bullet based on the stored movement directions
-    setPos(x() + dx, y() + dy);
+    this->setPos(x() + dx, y() + dy);
 
     // Check for collisions with enemies
     QList<QGraphicsItem *> colliding_items = collidingItems();
