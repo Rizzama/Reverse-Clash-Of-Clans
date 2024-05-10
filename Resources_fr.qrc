@@ -12,8 +12,7 @@
         <file>Cannon Left.png</file>
         <file>Cannon Right.png</file>
         <file>Cannon Up.png</file>
-        <file>C:/Users/Razma/Downloads/output-onlinepngtools.png</file>
-        <file>output-onlinepngtools.png</file>
+        <file>../../../../../../Razma/Downloads/output-onlinepngtools.png</file>
         <file>VillageHouseA.png</file>
     </qresource>
     <qresource prefix="/Sounds">

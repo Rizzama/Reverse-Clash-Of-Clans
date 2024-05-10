@@ -19,6 +19,7 @@ public:
     Cannonball(QGraphicsItem *parent = nullptr, qreal dx = 0, qreal dy = 0);
 public slots:
     void movebullet();
+    void keyPressEvent(QKeyEvent *event);
 };
 
 #endif // CANNONBALL_H
