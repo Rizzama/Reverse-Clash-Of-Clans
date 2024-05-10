@@ -68,8 +68,9 @@ void Player::keyPressEvent(QKeyEvent *event) {
         this->setPixmap(cannonLeft);
         this->setPos(400 - cannonLeft.width() / 1.55, 300 - cannonLeft.height() / 1.5); // Center the player on the screen
         // Don't ask, that's what worked
+        bulletDx = -10;
         if(event->key() == Qt::Key_Space){
-            Cannonball * buller = new Cannonball;
+            Cannonball * buller = new Cannonball(this, bulletDx, bulletDy);
             buller->setPos(400 - cannonLeft.width() / 1.55, 300 - cannonLeft.height() / 1.55);
             scene()->addItem(buller);
             buller->movebullet();
@@ -81,7 +82,7 @@ void Player::keyPressEvent(QKeyEvent *event) {
         this->setPixmap(cannonRight);
         this->setPos(400 - cannonRight.width() / 1.55, 300 - cannonRight.height() / 1.55); // Center the player on the screen
         if(event->key() == Qt::Key_Space){
-            Cannonball * buller = new Cannonball;
+            Cannonball * buller = new Cannonball(this, bulletDx, bulletDy);
             buller->setPos(400 - cannonRight.width() / 1.55, 300 - cannonRight.height() / 1.55);
             scene()->addItem(buller);
             buller->movebullet();
@@ -93,7 +94,7 @@ void Player::keyPressEvent(QKeyEvent *event) {
         this->setPixmap(cannonDown);
         this->setPos(400 - cannonDown.width() / 1.55, 300 - cannonDown.height() / 1.55); // Center the player on the screen
         if(event->key() == Qt::Key_Space){
-            Cannonball * buller = new Cannonball;
+            Cannonball * buller = new Cannonball(this, bulletDx, bulletDy);
             buller->setPos(400 - cannonDown.width() / 1.55, 300 - cannonDown.height() / 1.55);
             scene()->addItem(buller);
             buller->movebullet();
@@ -105,7 +106,7 @@ void Player::keyPressEvent(QKeyEvent *event) {
         this->setPixmap(cannonUp);
         this->setPos(400 - cannonUp.width() / 1.55, 300 - cannonUp.height() / 1.55); // Center the player on the screen
         if(event->key() == Qt::Key_Space){
-            Cannonball * buller = new Cannonball();
+            Cannonball * buller = new Cannonball(this, bulletDx, bulletDy);
             buller->setPos(400 - cannonUp.width() / 1.55, 300 - cannonUp.height() / 1.55);
             scene()->addItem(buller);
             buller->movebullet();

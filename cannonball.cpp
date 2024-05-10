@@ -17,7 +17,7 @@ extern Game * game;
 Cannonball::Cannonball(QGraphicsItem *parent, qreal dx, qreal dy)
     : QObject(), QGraphicsPixmapItem(parent), dx(dx), dy(dy) {
     QPixmap cannonBall(":/Sprites/228px-Cannon_Ball.png");
-    QPixmap ball = cannonBall.scaled(cannonBall.width() / 4, cannonBall.height() / 4);
+    QPixmap ball = cannonBall.scaled(cannonBall.width() / 5.5, cannonBall.height() / 5.5);
     setPixmap(ball);
     QTimer *timer = new QTimer(this);
     connect(timer, SIGNAL(timeout()), this, SLOT(movebullet()));
