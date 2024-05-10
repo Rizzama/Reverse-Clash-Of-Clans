@@ -1,4 +1,5 @@
 #include "enemy.h"
+#include "Player.h"
 #include <QTimer>
 #include <QBrush>
 #include <QImage>
@@ -54,7 +55,7 @@ Game::Game(QWidget *parent, const QString& playerName)
     }
 
     QTimer *timer = new QTimer(this);
-    connect(timer, SIGNAL(timeout()), this, SLOT(spawnEnemy()));
+    connect(timer, SIGNAL(timeout()), this, SLOT(createEnemy()));
     timer->start(2000);
 
     health = new Health();

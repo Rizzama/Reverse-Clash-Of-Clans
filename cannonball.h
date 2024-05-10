@@ -13,10 +13,12 @@ private:
     QMediaPlayer * enemy_death_sound;
     QAudioOutput * enemy_death_output;
 
+    qreal dx, dy; // To increment movement in whichever direction
+
 public:
-    Cannonball(QGraphicsItem *parent = 0);
+    Cannonball(QGraphicsItem *parent = nullptr, qreal dx = 0, qreal dy = 0);
 public slots:
-    void movebullet(QKeyEvent *Event);
+    void movebullet();
 };
 
 #endif // CANNONBALL_H

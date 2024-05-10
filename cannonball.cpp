@@ -14,30 +14,29 @@
 
 extern Game * game;
 
-Cannonball::Cannonball(QGraphicsItem *parent):QObject(), QGraphicsPixmapItem(parent) {
-
-    this->setPixmap(QPixmap(":/Sprites/228px-Cannon_Ball.png"));
-
-    //****** Creating Enemy Death Sound Effect *********
-    enemy_death_output = new QAudioOutput();
-    enemy_death_output->setVolume(50);
-    enemy_death_sound = new QMediaPlayer();
-    enemy_death_sound->setAudioOutput(enemy_death_output);
-    enemy_death_sound->setSource(QUrl(":/Sounds/barbarian-death-cry---clash-of-clans-made-with-Voicemod.mp3"));
-
-    // *******  Generating the Bullets automatically ********
-    QTimer * timer = new QTimer();
-    connect(timer, SIGNAL(timeout()),this,SLOT (move()));
-    timer->start(50);
+Cannonball::Cannonball(QGraphicsItem *parent, qreal dx, qreal dy)
+    : QObject(), QGraphicsPixmapItem(parent), dx(dx), dy(dy) {
+    QPixmap cannonBall(":/Sprites/228px-Cannon_Ball.png");
+    QPixmap ball = cannonBall.scaled(cannonBall.width() / 4, cannonBall.height() / 4);
+    setPixmap(ball);
+    QTimer *timer = new QTimer(this);
+    connect(timer, SIGNAL(timeout()), this, SLOT(movebullet()));
+    timer->start(50); // Adjust the bullet speed
 }
 
-// Move function is used to 1-  move the bullet upwards
-// 2- Handle the collision of the bullets with enemies
-void Cannonball::movebullet(QKeyEvent *Event)
-{
-    // *******  Getting the colliding items with the Bullet ********
-    // ******* Adding Sound effect for destroyed enemy *******
+/*
+    run_output = new QAudioOutput(this); // Using 'this' as parent
+    run_output->setVolume(50);
+    run_sound = new QMediaPlayer(this); // Using 'this' as parent
+    run_sound->setAudioOutput(run_output);
+    run_sound->setSource(QUrl("qrc:/Sounds/Enemy Walk.mp3"));
+*/
 
+void Cannonball::movebullet() {
+    // Move the bullet based on the stored movement directions
+    setPos(x() + dx, y() + dy);
+
+    // Check for collisions with enemies
     QList<QGraphicsItem *> colliding_items = collidingItems();
     for(int i = 0, n = colliding_items.size(); i < n; ++i)
     {
@@ -54,16 +53,9 @@ void Cannonball::movebullet(QKeyEvent *Event)
         }
     }
 
-// Add despawn at the wall
-
-// *******  Moving the bullets ********
-    if (Event->key() == Qt::Key_Left) {
-        this->setPos(x() - 10, y());
-    } else if (Event->key() == Qt::Key_Right) {
-        this->setPos(x() + 10, y());
-    } else if (Event->key() == Qt::Key_Down) {
-        this->setPos(x(), y() + 10);
-    } else if (Event->key() == Qt::Key_Up) {
-        this->setPos(x(), y() - 10);
+    // Delete the bullet if it goes out of the scene boundaries
+    if (!scene()->sceneRect().contains(pos())) {
+        scene()->removeItem(this);
+        delete this;
     }
 }

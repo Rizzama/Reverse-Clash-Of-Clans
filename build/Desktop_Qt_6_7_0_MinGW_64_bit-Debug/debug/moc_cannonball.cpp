@@ -37,9 +37,7 @@ struct qt_meta_stringdata_CLASSCannonballENDCLASS_t {};
 constexpr auto qt_meta_stringdata_CLASSCannonballENDCLASS = QtMocHelpers::stringData(
     "Cannonball",
     "movebullet",
-    "",
-    "QKeyEvent*",
-    "Event"
+    ""
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -60,10 +58,10 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSCannonballENDCLASS[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    1,   20,    2, 0x0a,    1 /* Public */,
+       1,    0,   20,    2, 0x0a,    1 /* Public */,
 
  // slots: parameters
-    QMetaType::Void, 0x80000000 | 3,    4,
+    QMetaType::Void,
 
        0        // eod
 };
@@ -78,8 +76,7 @@ Q_CONSTINIT const QMetaObject Cannonball::staticMetaObject = { {
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<Cannonball, std::true_type>,
         // method 'movebullet'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<QKeyEvent *, std::false_type>
+        QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
 } };
@@ -90,10 +87,11 @@ void Cannonball::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         auto *_t = static_cast<Cannonball *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->movebullet((*reinterpret_cast< std::add_pointer_t<QKeyEvent*>>(_a[1]))); break;
+        case 0: _t->movebullet(); break;
         default: ;
         }
     }
+    (void)_a;
 }
 
 const QMetaObject *Cannonball::metaObject() const
