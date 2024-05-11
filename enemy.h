@@ -15,8 +15,9 @@ public:
     void playSpawnSound();
 
 public slots:
-
     void move();
+    void spawnEnemy();
+
 private:
     QMediaPlayer * run_sound;
     QAudioOutput * run_output;

@@ -10,11 +10,30 @@
 
 extern Game *game;
 
-Cannonball::Cannonball(QGraphicsItem *parent, qreal dx, qreal dy)
-    : QObject(), QGraphicsPixmapItem(parent), dx(dx), dy(dy) {
+Cannonball::Cannonball(QPointF cannonPos, QGraphicsItem *parent, QString cannon_State) // passed by player.cpp
+    : QObject(), QGraphicsPixmapItem(parent) {
     QPixmap cannonBall(":/Sprites/228px-Cannon_Ball.png");
     QPixmap ball = cannonBall.scaled(cannonBall.width() / 5.5, cannonBall.height() / 5.5);
     setPixmap(ball);
+
+    this->setPos(cannonPos);
+    qDebug() << cannonPos << " " << this->pos();
+    cannonState = cannon_State; // Assigns local cannonState variable with the one passed by player.cpp
+
+    qDebug() << cannonState << "from " << cannon_State;
+
+    if (cannonState == "Up"){
+        dy = -10;
+    } else if (cannonState == "Down"){
+        dy = 10;
+    } else if (cannonState == "Right"){
+        dx = 10;
+    } else if (cannonState == "Left"){
+        dx = -10;
+    } else{ // When cannonState is "Firing"
+        movebullet();
+    }
+    // The uninitialised path of the bullet is down and right
 
     // Create invisible lines
     // QGraphicsLineItem *upLine = new QGraphicsLineItem(0, 0, 0, -100); // Example line
@@ -23,27 +42,7 @@ Cannonball::Cannonball(QGraphicsItem *parent, qreal dx, qreal dy)
     QTimer *timer = new QTimer(this);
     connect(timer, SIGNAL(timeout()), this, SLOT(movebullet()));
     timer->start(50); // Adjust the bullet speed
-    this->movebullet();
-}
 
-void Cannonball::keyPressEvent(QKeyEvent *event) {
-    if (event->key() == Qt::Key_Left) {
-        dx = -10;
-        dy = 0;
-    } else if (event->key() == Qt::Key_Right) {
-        dx = 10;
-        dy = 0;
-    } else if (event->key() == Qt::Key_Up) {
-        dx = 0;
-        dy = -10;
-    } else if (event->key() == Qt::Key_Down) {
-        dx = 0;
-        dy = 10;
-    }
-    // This if condition is never called
-    if(event->key() == Qt::Key_Space){
-        this->movebullet();
-    }
 }
 
 void Cannonball::movebullet() {
@@ -57,7 +56,6 @@ void Cannonball::movebullet() {
     {
         if(typeid(*(colliding_items[i])) == typeid(Enemy))
         {
-            // **** increase the score *****
             enemy_death_sound -> play();
             scene()->removeItem(colliding_items[i]);
             scene()->removeItem(this);

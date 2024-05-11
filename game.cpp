@@ -54,9 +54,6 @@ Game::Game(QWidget *parent, const QString& playerName)
         player->setPos(400-100, 300-82); // Center the player on the screen
     }
 
-    QTimer *timer = new QTimer(this);
-    connect(timer, SIGNAL(timeout()), this, SLOT(createEnemy()));
-    timer->start(2000);
 
     health = new Health();
     health->setPos(health->x(), health->y() );

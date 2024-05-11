@@ -56,8 +56,7 @@ Clan* Player::getClan() const
 }
 
 void Player::keyPressEvent(QKeyEvent *event) {
-    qreal bulletDx = 0;
-    qreal bulletDy = 0;
+    QString cannonState;
     QPixmap cannonLeft(":/Sprites/Cannon Left.png");
     QPixmap cannonRight(":/Sprites/Cannon Right.png");
     QPixmap cannonDown(":/Sprites/Cannon Down.png");
@@ -67,34 +66,39 @@ void Player::keyPressEvent(QKeyEvent *event) {
         cannonLeft = cannonLeft.scaled(cannonLeft.width() / 3, cannonLeft.height() / 3);
         this->setPixmap(cannonLeft);
         this->setPos(230.79,130.29);
+        cannonState = "Left"; // Update cannonState to reflect left direction
+        qDebug() << cannonState;
     } else if (event->key() == Qt::Key_Right){
         cannonRight = cannonRight.scaled(cannonRight.width() / 3.25, cannonRight.height() / 3.25);
         this->setPixmap(cannonRight);
         this->setPos(241.29,141.29);
+        cannonState = "Right"; // Update cannonState to reflect right direction
+        qDebug() << cannonState;
     } else if (event->key() == Qt::Key_Down){
         cannonDown = cannonDown.scaled(cannonDown.width() / 3.25,  cannonDown.height() / 3.25);
         this->setPixmap(cannonDown);
         this->setPos(241.29,141.29);
+        cannonState = "Down"; // Update cannonState to reflect down direction
+        qDebug() << cannonState;
     } else if(event->key() == Qt::Key_Up){
         cannonUp = cannonUp.scaled(cannonUp.width() / 3.25, cannonUp.height() / 3.25);
         this->setPixmap(cannonUp);
         this->setPos(241.29,141.29);
-    }
-
-    if (event->key() == Qt::Key_Space) {
-        // Create a cannonball and add it to the scene
-        Cannonball *bullet = new Cannonball(this, bulletDx, bulletDy);
+        cannonState = "Up"; // Update cannonState to reflect up direction
+        qDebug() << cannonState;
+    } else{
+        cannonState = "Firing";
+        qDebug() << this->pos();
+        qDebug() << cannonState;
+        Cannonball *bullet = new Cannonball(this->pos(), this, cannonState); // passes the cannon state to the bullet constructor
         bullet->setPos(241.29,141.29);
         scene()->addItem(bullet);
         cannonball_sound->play();
-        qDebug() << "Boom!";
-        qDebug() << "Cannon coordinates: " << pos();
-//        bullet->movebullet();
-        // Note: No need to call bullet->movebullet() here since it's already called in the Cannonball constructor
-        // Lying asshole
     }
-}
 
+    qDebug() << cannonState;
+
+}
 
 //   this->setPixmap(cannonDefault);
 //   this->setPos(400 - 100, 300 - 82);

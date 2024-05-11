@@ -4,6 +4,7 @@
 #include <QGraphicsScene>
 #include <stdlib.h> // rand() -> to generate really large integer
 #include <QTimer>
+#include <stdlib.h>
 #include <QDebug>
 #include <QList>
 #include <typeinfo>
@@ -12,12 +13,15 @@ extern Game * game;
 
 Enemy::Enemy(QGraphicsItem *parent): QObject(), QGraphicsPixmapItem(parent) {
     // *******  Setting the size of the enemy ********
-    setPixmap(QPixmap(":/Sprites/Enemy.png"));
+    QPixmap enemy = QPixmap(":/Sprites/Enemy.png").scaled(QPixmap(":/Sprites/Enemy.png").width() / 13, QPixmap(":/Sprites/Enemy.png").height() / 15);
+    setPixmap(enemy);
 
     // *******  Setting the position of the enemy within the view dimensions ********
-    int random_number = rand() % 700;
-    setPos(random_number, 0);
-
+    int rand1 = rand() % 600, rand2 = rand() % 500;
+    this->setPos(rand1, rand2);
+    if(x() <= 0 || x() >= 800 || y() <= 0 || y() >= 600){
+        delete this;
+    }
     // *******  Moving the enemies downwards automatically every 40 milliseconds ********
     // Enemy Walk.mp3 has the walk frequency of 7Hz or the period of every step is 1/7s
     QTimer * timer = new QTimer(this); // Using 'this' as parent
@@ -43,7 +47,12 @@ Enemy::Enemy(QGraphicsItem *parent): QObject(), QGraphicsPixmapItem(parent) {
     spawn_output->setVolume(50);
     spawn_sound = new QMediaPlayer(this); // Using 'this' as parent
     spawn_sound->setAudioOutput(spawn_output);
-    spawn_sound->setSource(QUrl("qrc:/../../../../../Razma/Downloads/Enemy Troop Intro.mp3"));
+    spawn_sound->setSource(QUrl(":/Sounds/Enemy Troop Intro.mp3"));
+
+    QTimer * Timer = new QTimer(this);
+    connect(Timer, SIGNAL(timeout()), this, SLOT(spawnEnemy()));
+    Timer->start(2000);
+    qDebug() << "Enemy spotted";
 }
 
 void Enemy::move() {
@@ -124,4 +133,9 @@ void Enemy::move() {
 
 void Enemy::playSpawnSound() {
     spawn_sound->play();
+}
+
+void Enemy::spawnEnemy()
+{
+    scene()->addItem(this);
 }
