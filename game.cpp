@@ -46,13 +46,15 @@ Game::Game(QWidget *parent, const QString& playerName)
     scene->addItem(player);
     player->setFlag(QGraphicsItem::ItemIsFocusable);
     player->setFocus();
-//    QPixmap playerPixmap = player->pixmap();
-//    qDebug() << playerPixmap.size();
+    //    QPixmap playerPixmap = player->pixmap();
+    //    qDebug() << playerPixmap.size();
     if (parent){
         player->setPos(parent->size().width() / 2, parent->size().height() / 2); // Center the player on the screen
     }else{
         player->setPos(400-100, 300-82); // Center the player on the screen
     }
+
+
 
 
     health = new Health();
@@ -61,6 +63,9 @@ Game::Game(QWidget *parent, const QString& playerName)
 
     addWalls(); // Call the function to add walls
     addVillageHouse();
+
+    //call enimes
+    player->createEnemy();
 }
 
 void Game::decreaseHealth(){
@@ -111,5 +116,3 @@ void Game::addVillageHouse() {
     village2->setScale(0.8);
     scene->addItem(village2);
 }
-
-

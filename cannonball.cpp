@@ -13,10 +13,8 @@ extern Game *game;
 Cannonball::Cannonball(QPointF cannonPos, QGraphicsItem *parent, QString cannon_State) // passed by player.cpp
     : QObject(), QGraphicsPixmapItem(parent) {
     QPixmap cannonBall(":/Sprites/228px-Cannon_Ball.png");
-    QPixmap ball = cannonBall.scaled(cannonBall.width() / 5.5, cannonBall.height() / 5.5);
-    setPixmap(ball);
 
-    this->setPos(cannonPos);
+
     qDebug() << cannonPos << " " << this->pos();
     cannonState = cannon_State; // Assigns local cannonState variable with the one passed by player.cpp
 
@@ -24,14 +22,31 @@ Cannonball::Cannonball(QPointF cannonPos, QGraphicsItem *parent, QString cannon_
 
     if (cannonState == "Up"){
         dy = -10;
+        QPixmap ball = cannonBall.scaled(cannonBall.width() /5.5, cannonBall.height() /  5.5);
+        setPixmap(ball);
+        this->setPos(cannonPos.x() / 2.5, cannonPos.y() / 3.2);
+
     } else if (cannonState == "Down"){
         dy = 10;
+        QPixmap ball = cannonBall.scaled(cannonBall.width() / 5.5, cannonBall.height() /  5.5);
+        setPixmap(ball);
+        this->setPos(cannonPos.x() / 2.5, cannonPos.y());
+
     } else if (cannonState == "Right"){
         dx = 10;
+        QPixmap ball = cannonBall.scaled(cannonBall.width() / 5.5, cannonBall.height() / 5.5);
+        setPixmap(ball);
+        this->setPos(cannonPos.x()/2 , cannonPos.y()/ 1.5);
     } else if (cannonState == "Left"){
         dx = -10;
+        QPixmap ball = cannonBall.scaled(cannonBall.width() / 5.5, cannonBall.height() /  5.5);
+        setPixmap(ball);
+        this->setPos(cannonPos.x() /3.5 , cannonPos.y() / 1.5);
     } else{ // When cannonState is "Firing"
         movebullet();
+        QPixmap ball = cannonBall.scaled(cannonBall.width() / 5.5, cannonBall.height() /  5.5);
+        setPixmap(ball);
+        this->setPos(cannonPos.x() / 5.5, cannonPos.y() / 5.5);
     }
     // The uninitialised path of the bullet is down and right
 
@@ -41,14 +56,30 @@ Cannonball::Cannonball(QPointF cannonPos, QGraphicsItem *parent, QString cannon_
 
     QTimer *timer = new QTimer(this);
     connect(timer, SIGNAL(timeout()), this, SLOT(movebullet()));
-    timer->start(50); // Adjust the bullet speed
+    timer->start(100); // Adjust the bullet speed
 
 }
 
 void Cannonball::movebullet() {
 
     // Move the bullet based on the stored movement directions
+    if (cannonState == "Up"){
+        dy = -5;
+    } else if (cannonState == "Down"){
+        dy = 10;
+    } else if (cannonState == "Right"){
+        dx = 10;
+    } else if (cannonState == "Left"){
+        dx = -10;
+    } else{ // When cannonState is "Firing"
+        dx+=5;
+        dy+=5;
+    }
+
     this->setPos(x() + dx, y() + dy);
+    qDebug() << "cannon state---" << cannonState;
+
+    qDebug() << " move bullet--" << this->pos();
 
     // Check for collisions with enemies
     QList<QGraphicsItem *> colliding_items = collidingItems();
@@ -56,7 +87,7 @@ void Cannonball::movebullet() {
     {
         if(typeid(*(colliding_items[i])) == typeid(Enemy))
         {
-            enemy_death_sound -> play();
+            // enemy_death_sound -> play();
             scene()->removeItem(colliding_items[i]);
             scene()->removeItem(this);
 
@@ -72,4 +103,3 @@ void Cannonball::movebullet() {
         delete this;
     }
 }
-

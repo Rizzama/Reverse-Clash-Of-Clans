@@ -7,6 +7,7 @@
 #include <QGraphicsPixmapItem>
 
 class Player: public QObject, public QGraphicsPixmapItem {
+    Q_OBJECT;
 private:
     static int id;
     QString name;
@@ -14,6 +15,7 @@ private:
     Clan* clan;
     QMediaPlayer * cannonball_sound;
     QAudioOutput * cannonball_output;
+    QString current_state;
 
 public:
     Player(QString name);
@@ -24,10 +26,11 @@ public:
     int getLevel() const;
     void setClan(Clan* clan);
     Clan* getClan() const;
-    void createEnemy();
+
 
 public slots:
     void keyPressEvent(QKeyEvent *Event);
+    void createEnemy();
 };
 
 #endif // PLAYER_H
