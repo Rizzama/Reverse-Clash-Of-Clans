@@ -53,7 +53,7 @@ Enemy::Enemy(QGraphicsItem *parent): QObject(), QGraphicsPixmapItem(parent) {
         spawn_output->setVolume(50);
         spawn_sound = new QMediaPlayer(this); // Using 'this' as parent
         spawn_sound->setAudioOutput(spawn_output);
-        spawn_sound->setSource(QUrl(":/Sounds/Enemy Troop Intro.mp3"));
+        spawn_sound->setSource(QUrl("qrc:/Enemy_Grunt/Enemy_Attack_Demo.mpeg"));
 
 
         // QTimer * Timer = new QTimer(this);
@@ -139,11 +139,11 @@ void Enemy::move() {
     }
 
     // Play run sound
-    //   run_sound->play();
+    //  run_sound->play();
 }
 
 void Enemy::playSpawnSound() {
-    //  spawn_sound->play();
+    spawn_sound->play();
 }
 
 void Enemy::spawnEnemy()

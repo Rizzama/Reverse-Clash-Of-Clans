@@ -58,6 +58,7 @@ Cannonball::Cannonball(QPointF cannonPos, QGraphicsItem *parent, QString cannon_
     connect(timer, SIGNAL(timeout()), this, SLOT(movebullet()));
     timer->start(100); // Adjust the bullet speed
 
+
 }
 
 void Cannonball::movebullet() {

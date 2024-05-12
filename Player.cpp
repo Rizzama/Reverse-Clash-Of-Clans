@@ -20,7 +20,7 @@ Player::Player(QString name)
     cannonball_output->setVolume(50);
     cannonball_sound = new QMediaPlayer(this);
     cannonball_sound->setAudioOutput(cannonball_output);
-    cannonball_sound->setSource(QUrl(":/Sounds/CannonFire.mp3"));
+    cannonball_sound->setSource(QUrl("qrc:/Sounds/CannonFire.mp3"));
 
     QTimer * Timer = new QTimer(this);
     connect(Timer, SIGNAL(timeout()), this, SLOT(createEnemy()));
@@ -103,11 +103,11 @@ void Player::keyPressEvent(QKeyEvent *event) {
         qDebug() << this->pos();
         qDebug() << cannonState;
         Cannonball *bullet = new Cannonball(this->pos(), this, cannonState); // passes the cannon state to the bullet constructor
+        cannonball_sound->play();
         // bullet->setPos(50,50);
         // scene()->addItem(bullet);
 
 
-        cannonball_sound->play();
     }
 
 }
@@ -119,6 +119,6 @@ void Player::keyPressEvent(QKeyEvent *event) {
 void Player::createEnemy()
 { Enemy* enemy = new Enemy();
     scene()->addItem(enemy);
-
+ //   enemy->playSpawnSound();
 
 }
