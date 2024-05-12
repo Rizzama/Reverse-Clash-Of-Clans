@@ -6,6 +6,7 @@ debug/game.o
 debug/health.o
 debug/main.o
 debug/clan.o
+debug/score.o
 debug/village.o
 debug/qrc_Demo_Sounds.o
 debug/qrc_Resources_fr.o

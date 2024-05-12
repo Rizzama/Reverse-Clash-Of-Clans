@@ -6,6 +6,7 @@ release/game.o
 release/health.o
 release/main.o
 release/clan.o
+release/score.o
 release/village.o
 release/qrc_Demo_Sounds.o
 release/qrc_Resources_fr.o

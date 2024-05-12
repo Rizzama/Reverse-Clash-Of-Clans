@@ -102,7 +102,7 @@ void Cannonball::movebullet() {
             // enemy_death_sound -> play();
             scene()->removeItem(colliding_items[i]);
             scene()->removeItem(this);
-            game->score->increase();
+            game->increaseScore(); // Score is defined in game.cpp, not game.h. You called game.h
             delete colliding_items[i];
             delete this;
             return;

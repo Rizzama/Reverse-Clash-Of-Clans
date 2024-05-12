@@ -65,8 +65,6 @@ Game::Game(QWidget *parent, const QString& playerName)
     health->setPos(health->x(), health->y());
     scene->addItem(health);
 
-    Score *score  = new Score();
-    score->setPos(health->x(), health->y() + 25);
     scene->addItem(score);
 
     addWalls(); // Call the function to add walls
@@ -127,4 +125,12 @@ void Game::addVillageHouse() {
 
 QPointF Game::getmaxPoint(){
     return maxPoint;
+}
+
+void Game::setScorePosition(){
+    score->setPos(health->x(), health->y() + 200);
+}
+
+void Game::increaseScore(){
+    score->increase();
 }
