@@ -26,6 +26,9 @@ void Health::decrease()
 {
     health=health-5;
     setPlainText(QString("Health: ") + QString::number(health)); // Health: 90
+    setDefaultTextColor(Qt::red);
+    setPlainText(QString("Health: ") + QString::number(health)); // Health: 90
+    setDefaultTextColor(Qt::white);
     if (health == 0)
     {
         gameover();
@@ -47,7 +50,7 @@ void Health::gameover()
     }
     QGraphicsTextItem *gameover = new QGraphicsTextItem;
     gameover->setFont (QFont ("times", 40)) ;
-    gameover->setDefaultTextColor(Qt::red);
+    gameover->setDefaultTextColor(Qt::black);
     gameover->setPlainText("Game Over");
     gameover->setPos (300, 250) ;
 

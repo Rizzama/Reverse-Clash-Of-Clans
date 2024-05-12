@@ -18,6 +18,7 @@ SOURCES += \
     health.cpp \
     main.cpp \
     clan.cpp \
+    score.cpp \
     village.cpp
 
 HEADERS += \
@@ -28,6 +29,7 @@ HEADERS += \
     enemy.h \
     game.h \
     health.h \
+    score.h \
     village.h
 
 FORMS += \

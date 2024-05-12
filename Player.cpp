@@ -103,7 +103,7 @@ void Player::keyPressEvent(QKeyEvent *event) {
 
         qDebug() << cannonState;
     }
-    else if (event->key() == Qt::Key_Up && event->key() == Qt::Key_Right){
+    else if (event->modifiers() & Qt::Key_Up && event->modifiers() & Qt::Key_Right){
         cannonUpRight = cannonUpRight.scaled(cannonUpRight.width() / 3.25, cannonUpRight.height() / 3.25);
         this->setPixmap(cannonUpRight);
         this->setPos(241.29,141.29);
@@ -111,7 +111,7 @@ void Player::keyPressEvent(QKeyEvent *event) {
         this->current_state = "Up Right";
 
         qDebug() << cannonState;
-    }     else if (event->key() == Qt::Key_Up && event->key() == Qt::Key_Left){
+    }     else if (event->modifiers() & Qt::Key_Up && event->modifiers() & Qt::Key_Left){
         cannonUpLeft = cannonUpLeft.scaled(cannonUpLeft.width() / 3.25, cannonUpLeft.height() / 3.25);
         this->setPixmap(cannonUpLeft);
         this->setPos(241.29,141.29);
@@ -120,7 +120,7 @@ void Player::keyPressEvent(QKeyEvent *event) {
 
         qDebug() << cannonState;
     }
-    else if (event->key() == Qt::Key_Down && event->key() == Qt::Key_Right){
+    else if (event->modifiers() & Qt::Key_Down && event->modifiers() & Qt::Key_Right){
         cannonUpRight = cannonDownRight.scaled(cannonDownRight.width() / 3.25, cannonDownRight.height() / 3.25);
         this->setPixmap(cannonDownRight);
         this->setPos(241.29,141.29);
@@ -128,7 +128,7 @@ void Player::keyPressEvent(QKeyEvent *event) {
         this->current_state = "Down Right";
 
         qDebug() << cannonState;
-    }     else if (event->key() == Qt::Key_Down && event->key() == Qt::Key_Left){
+    }     else if (event->modifiers() & Qt::Key_Down && event->modifiers() & Qt::Key_Left){
         cannonUpRight = cannonDownLeft.scaled(cannonDownLeft.width() / 3.25, cannonDownLeft.height() / 3.25);
         this->setPixmap(cannonDownLeft);
         this->setPos(241.29,141.29);

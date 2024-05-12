@@ -6,6 +6,7 @@
 #include <QGraphicsItem>
 #include "game.h"
 #include <qDebug>
+#include "score.h"
 
 Game::Game(QWidget *parent, const QString& playerName)
     : QGraphicsView(parent), scene(new QGraphicsScene(this)), playerName(playerName) { // Modified constructor
@@ -61,8 +62,12 @@ Game::Game(QWidget *parent, const QString& playerName)
 
 
     health = new Health();
-    health->setPos(health->x(), health->y() );
+    health->setPos(health->x(), health->y());
     scene->addItem(health);
+
+    Score *score  = new Score();
+    score->setPos(health->x(), health->y() + 25);
+    scene->addItem(score);
 
     addWalls(); // Call the function to add walls
     addVillageHouse();

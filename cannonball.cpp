@@ -2,6 +2,7 @@
 #include <QKeyEvent>
 #include <QTimer>
 #include "game.h"
+#include "score.h"
 #include <QGraphicsScene>
 #include <QList>
 #include <enemy.h>
@@ -14,7 +15,7 @@ Cannonball::Cannonball(QPointF cannonPos, QGraphicsItem *parent, QString cannon_
     : QObject(), QGraphicsPixmapItem(parent) {
     QPixmap cannonBall(":/Sprites/228px-Cannon_Ball.png");
 
-
+    Score * score = new Score();
     qDebug() << cannonPos << " " << this->pos();
     cannonState = cannon_State; // Assigns local cannonState variable with the one passed by player.cpp
 
@@ -101,7 +102,7 @@ void Cannonball::movebullet() {
             // enemy_death_sound -> play();
             scene()->removeItem(colliding_items[i]);
             scene()->removeItem(this);
-
+            game->score->increase();
             delete colliding_items[i];
             delete this;
             return;
