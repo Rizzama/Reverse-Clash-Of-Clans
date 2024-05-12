@@ -13,6 +13,9 @@
         <file>Cannon Right.png</file>
         <file>Cannon Up.png</file>
         <file>VillageHouseA.png</file>
+        <file>Cannon_Up_Right.png</file>
+        <file>Cannon_Down_Left.png</file>
+        <file>Cannon_Up_Left.png</file>
     </qresource>
     <qresource prefix="/Sounds">
         <file>Enemy Walk.mp3</file>

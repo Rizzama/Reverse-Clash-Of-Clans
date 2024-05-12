@@ -72,10 +72,20 @@ void Cannonball::movebullet() {
         dx = 10;
     } else if (cannonState == "Left"){
         dx = -10;
-    } else{ // When cannonState is "Firing"
-        dx+=5;
-        dy+=5;
+    } else if (cannonState == "Down Right"){ // When cannonState is "Firing"
+        dx+=10;
+        dy+=10;
+    } else if (cannonState == "Down Left") {
+        dx-=10;
+        dy+=10;
+    } else if (cannonState == "Up Right"){ // When cannonState is "Firing"
+        dx+=10;
+        dy-=10;
+    } else if (cannonState == "Up Left") {
+        dx-=10;
+        dy-=10;
     }
+
 
     this->setPos(x() + dx, y() + dy);
     qDebug() << "cannon state---" << cannonState;

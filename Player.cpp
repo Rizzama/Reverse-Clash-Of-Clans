@@ -67,6 +67,10 @@ void Player::keyPressEvent(QKeyEvent *event) {
     QPixmap cannonRight(":/Sprites/Cannon Right.png");
     QPixmap cannonDown(":/Sprites/Cannon Down.png");
     QPixmap cannonUp(":/Sprites/Cannon Up.png");
+    QPixmap cannonUpRight (":/Sprites/Cannon_Up_Right.png");
+    QPixmap cannonUpLeft (":/Sprites/Cannon_Up_Left.png");
+    QPixmap cannonDownRight(":/Sprites/Cannon21B.png");
+    QPixmap cannonDownLeft(":/Sprites/Cannon_Down_Left.png");
 
     if (event->key() == Qt::Key_Left){
         cannonLeft = cannonLeft.scaled(cannonLeft.width() / 3, cannonLeft.height() / 3);
@@ -96,6 +100,40 @@ void Player::keyPressEvent(QKeyEvent *event) {
         this->setPos(241.29,141.29);
         cannonState = "Up"; // Update cannonState to reflect up direction
         this->current_state = "Up";
+
+        qDebug() << cannonState;
+    }
+    else if (event->key() == Qt::Key_Up && event->key() == Qt::Key_Right){
+        cannonUpRight = cannonUpRight.scaled(cannonUpRight.width() / 3.25, cannonUpRight.height() / 3.25);
+        this->setPixmap(cannonUpRight);
+        this->setPos(241.29,141.29);
+        cannonState = "Up Right"; // Update cannonState to reflect up direction
+        this->current_state = "Up Right";
+
+        qDebug() << cannonState;
+    }     else if (event->key() == Qt::Key_Up && event->key() == Qt::Key_Left){
+        cannonUpLeft = cannonUpLeft.scaled(cannonUpLeft.width() / 3.25, cannonUpLeft.height() / 3.25);
+        this->setPixmap(cannonUpLeft);
+        this->setPos(241.29,141.29);
+        cannonState = "Up Left"; // Update cannonState to reflect up direction
+        this->current_state = "Up Left";
+
+        qDebug() << cannonState;
+    }
+    else if (event->key() == Qt::Key_Down && event->key() == Qt::Key_Right){
+        cannonUpRight = cannonDownRight.scaled(cannonDownRight.width() / 3.25, cannonDownRight.height() / 3.25);
+        this->setPixmap(cannonDownRight);
+        this->setPos(241.29,141.29);
+        cannonState = "Down Right"; // Update cannonState to reflect up direction
+        this->current_state = "Down Right";
+
+        qDebug() << cannonState;
+    }     else if (event->key() == Qt::Key_Down && event->key() == Qt::Key_Left){
+        cannonUpRight = cannonDownLeft.scaled(cannonDownLeft.width() / 3.25, cannonDownLeft.height() / 3.25);
+        this->setPixmap(cannonDownLeft);
+        this->setPos(241.29,141.29);
+        cannonState = "Down Left"; // Update cannonState to reflect up direction
+        this->current_state = "Down Left";
 
         qDebug() << cannonState;
     } else{
