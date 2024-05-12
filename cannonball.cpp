@@ -65,7 +65,7 @@ void Cannonball::movebullet() {
 
     // Move the bullet based on the stored movement directions
     if (cannonState == "Up"){
-        dy = -5;
+        dy = -10;
     } else if (cannonState == "Down"){
         dy = 10;
     } else if (cannonState == "Right"){
@@ -99,8 +99,11 @@ void Cannonball::movebullet() {
     }
 
     // Delete the bullet if it goes out of the scene boundaries
-    if (!scene()->sceneRect().contains(pos())) {
+    if (pos().x() + 4.5 * 55.94 < 0 || pos().x() > game->getmaxPoint().x() ||
+        pos().y() + 4.5 * 34.1531 < 0 || pos().y() > game->getmaxPoint().y()) {
+        qDebug() << pos() << " " << game->getmaxPoint();
         scene()->removeItem(this);
         delete this;
     }
+
 }

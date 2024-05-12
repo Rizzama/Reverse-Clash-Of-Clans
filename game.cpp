@@ -10,6 +10,9 @@
 Game::Game(QWidget *parent, const QString& playerName)
     : QGraphicsView(parent), scene(new QGraphicsScene(this)), playerName(playerName) { // Modified constructor
 
+    maxPoint.setX(800);
+    maxPoint.setY(600);
+
     if (parent){
         setFixedSize(parent->size()); // Set the size to match the parent widget's size
         setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
@@ -115,4 +118,8 @@ void Game::addVillageHouse() {
     village2->setPos(villageX+80, villageY+120);
     village2->setScale(0.8);
     scene->addItem(village2);
+}
+
+QPointF Game::getmaxPoint(){
+    return maxPoint;
 }

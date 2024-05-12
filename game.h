@@ -6,6 +6,7 @@
 #include <QGraphicsScene>
 #include "Player.h"
 #include "health.h"
+#include <QPointF>
 
 class Game : public QGraphicsView {
 public:
@@ -14,8 +15,10 @@ public:
     void decreaseHealth();
     void addWalls();
     void addVillageHouse();
+    QPointF getmaxPoint();
 
 private:
+    QPointF maxPoint;
     QGraphicsScene *scene;
     Player *player;
     Health *health;
