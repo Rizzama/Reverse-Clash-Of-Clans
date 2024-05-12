@@ -24,7 +24,7 @@ Health::Health(){
 // ***** set health to current health after decrement ****
 void Health::decrease()
 {
-    health=health-10;
+    health=health-5;
     setPlainText(QString("Health: ") + QString::number(health)); // Health: 90
     if (health == 0)
     {
