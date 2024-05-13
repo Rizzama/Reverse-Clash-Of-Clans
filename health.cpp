@@ -3,6 +3,7 @@
 #include <QFont>
 #include <QMediaPLayer>
 #include <QAudioOutput>
+#include <QTimer>
 
 Health::Health(){
     // **** initialize the health to 3 ****
@@ -21,25 +22,32 @@ Health::Health(){
     womp_womp_sound->setAudioOutput(womp_womp_output);
     womp_womp_sound->setSource(QUrl("qrc:/Sounds/Game Over sound effect.mp3"));
 }
+
 // ***** set health to current health after decrement ****
 void Health::decrease()
 {
-    health=health-5;
+    health = health - 5;
     setPlainText(QString("Health: ") + QString::number(health)); // Health: 90
     setDefaultTextColor(Qt::red);
+
+    // Use QTimer to revert the color back to white after 500 milliseconds (adjust as needed)
+    QTimer::singleShot(500, this, &Health::resetColor);
+
     if (health == 0)
     {
         gameover();
     }
 }
 
-
+void Health::resetColor()
+{
+    setDefaultTextColor(Qt::white);
+}
 
 int Health::getHealth()
 {
     return health;
 }
-
 
 void Health::gameover()
 {

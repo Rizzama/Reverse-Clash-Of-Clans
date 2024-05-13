@@ -12,6 +12,7 @@ public:
     int getHealth();
     void dead();
     void gameover();
+    void resetColor();
 private:
     int health;
     QMediaPlayer * womp_womp_sound;

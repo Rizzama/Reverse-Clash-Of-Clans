@@ -8,6 +8,7 @@ public:
     Score();
     void increase();
     int getScore();
+    void resetColor();
 private:
     int score;
 };
