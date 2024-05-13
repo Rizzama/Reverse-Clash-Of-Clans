@@ -5,6 +5,7 @@
 #include <QMediaPLayer>
 #include <QAudioOutput>
 
+
 class Health: public QGraphicsTextItem{
 public:
     Health();
@@ -13,8 +14,10 @@ public:
     void dead();
     void gameover();
     void resetColor();
+    void maxHealthIncrease();
+
 private:
-    int health;
+    int health, maxHealth;
     QMediaPlayer * womp_womp_sound;
     QAudioOutput * womp_womp_output;
 };

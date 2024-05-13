@@ -14,6 +14,7 @@ private:
     QMediaPlayer * cannonball_sound;
     QAudioOutput * cannonball_output;
     QString current_state;
+    int times = 0;
 
 public:
     Player(QString name);
@@ -22,7 +23,7 @@ public:
     QString getName() const;
     void setLevel(int level);
     int getLevel() const;
-
+    int getTimes();
 
 public slots:
     void keyPressEvent(QKeyEvent *Event);

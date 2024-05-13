@@ -1,5 +1,5 @@
+ // Include for accessing the Game class
 #include "enemy.h"
-#include "game.h" // Include for accessing the Game class
 #include "clan.h"
 #include <QGraphicsScene>
 #include <stdlib.h> // rand() -> to generate really large integer
@@ -10,10 +10,10 @@
 #include <typeinfo>
 
 extern Game * game;
+Score * score;
+Player * player;
 
 Enemy::Enemy(QGraphicsItem *parent): QObject(), QGraphicsPixmapItem(parent) {
-
-
     // ***  Setting the position of the enemy within the view dimensions ****
     int enmy_x = rand() % 600, enmy_y = (rand() % 200)+400;
 
@@ -42,7 +42,7 @@ Enemy::Enemy(QGraphicsItem *parent): QObject(), QGraphicsPixmapItem(parent) {
         this->setPos(enmy_x, enmy_y);
         // ***  Moving the enemies downwards automatically every 40 milliseconds ****
         // Enemy Walk.mp3 has the walk frequency of 7Hz or the period of every step is 1/7s
-        QTimer * timer = new QTimer(this); // Using 'this' as parent
+        timer = new QTimer(this); // Using 'this' as parent
         connect(timer, SIGNAL(timeout()), this, SLOT(move()));
         timer->start(143);
 
@@ -155,17 +155,6 @@ void Enemy::move() {
         }
     }
 
-    // // Check for collisions with walls
-    // foreach (QGraphicsItem *item, colliding_items) {
-    //     if (typeid(*item) == typeid(QGraphicsPixmapItem)) {
-    //         // Collision with wall detected, decrease health
-    //         game->decreaseHealth();
-    //         scene()->removeItem(this);
-    //         delete this;
-    //         return;
-    //     }
-    // }
-
     // Play run sound
      run_sound->play();
 }
@@ -177,4 +166,10 @@ void Enemy::playSpawnSound() {
 void Enemy::spawnEnemy()
 {
     scene()->addItem(this);
+}
+
+void Enemy::increaseSpawnRate(){
+    if (score->getScore() % 100 == 0){
+        timer->start(143 / player->getTimes());
+    }
 }

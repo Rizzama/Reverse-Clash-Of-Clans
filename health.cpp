@@ -1,16 +1,17 @@
-#include "health.h"
 #include "QtWidgets/qgraphicsscene.h"
 #include <QFont>
 #include <QMediaPLayer>
 #include <QAudioOutput>
 #include <QTimer>
+#include "health.h"
 
 Health::Health(){
     // **** initialize the health to 3 ****
     health = 100;
+    maxHealth = 100;
 
     // **** draw the text *****
-    setPlainText(QString("Health: ") + QString::number(health)); // Health: 3
+    setPlainText(QString("Health: ") + QString::number(health) + QString("/") + QString::number(maxHealth)); // Health: 3
     setDefaultTextColor(Qt::white);
     setFont(QFont("times",16));
 
@@ -27,7 +28,7 @@ Health::Health(){
 void Health::decrease()
 {
     health = health - 5;
-    setPlainText(QString("Health: ") + QString::number(health)); // Health: 90
+   setPlainText(QString("Health: ") + QString::number(health) + QString("/") + QString::number(maxHealth)); // Health: 90
     setDefaultTextColor(Qt::red);
 
     // Use QTimer to revert the color back to white after 500 milliseconds (adjust as needed)
@@ -66,5 +67,14 @@ void Health::gameover()
     setPlainText(QString("Health: ") + QString::number(health)); // Health: 3
     setDefaultTextColor(Qt::white);
     setFont(QFont("times",16));
-
 }
+
+void Health::maxHealthIncrease(){
+    maxHealth = maxHealth + 20;
+    health = maxHealth;
+    setPlainText(QString("Health: ") + QString::number(health) + QString("/") + QString::number(maxHealth));
+}
+
+
+
+

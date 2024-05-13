@@ -155,5 +155,8 @@ void Player::createWall()
     scene()->addItem(clan);
     this->setZValue(1); // Set the stacking order of the player/cannon
     //   enemy->playSpawnSound();
+}
 
+int Player::getTimes(){
+    return times;
 }

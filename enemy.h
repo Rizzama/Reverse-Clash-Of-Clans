@@ -1,9 +1,13 @@
 #ifndef ENEMY_H
 #define ENEMY_H
+
 #include <QGraphicsPixmapItem>
 #include <QObject>
 #include <QMediaPLayer>
 #include <QAudioOutput>
+#include "game.h"
+#include "score.h"
+#include "Player.h"
 
 class Enemy: public QObject, public QGraphicsPixmapItem
 {
@@ -17,6 +21,7 @@ public:
 public slots:
     void move();
     void spawnEnemy();
+    void increaseSpawnRate();
 
 private:
     QMediaPlayer * run_sound;
@@ -26,6 +31,8 @@ private:
     QMediaPlayer * spawn_sound;
     QAudioOutput * spawn_output;
     int spawning_area;
+    QTimer * timer;
+    Score *score;
 
 };
 

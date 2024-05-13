@@ -1,4 +1,3 @@
-#include "enemy.h"
 #include "Player.h"
 #include <QTimer>
 #include <QBrush>
@@ -7,7 +6,7 @@
 #include "game.h"
 #include <qDebug>
 #include "score.h"
-#include "clan.h"
+
 
 Game::Game(QWidget *parent, const QString& playerName)
     : QGraphicsView(parent), scene(new QGraphicsScene(this)), playerName(playerName) { // Modified constructor
@@ -59,9 +58,6 @@ Game::Game(QWidget *parent, const QString& playerName)
         player->setPos(400-100, 300-82); // Center the player on the screen
     }
 
-
-
-
     health = new Health();
     health->setPos(health->x(), health->y());
     scene->addItem(health);
@@ -84,30 +80,8 @@ void Game::decreaseHealth(){
 }
 void Game::increaseScore(){
     score->increase();
+    increaseHealth();
 }
-
-void Game::addWalls() {
-
-    // // Define dimensions for the walls
-    // int wallWidth = 100; // Adjust as needed
-    // int wallHeight = 20; // Adjust as needed
-
-    // // Calculate the coordinates for the walls
-    // int centerX = player->x(); // Get the center x-coordinate of the player
-    // int centerY = player->y(); // Get the center y-coordinate of the player
-    // int wallX = centerX - wallWidth / 2; // Calculate the x-coordinate for the wall
-    // int wallY = centerY - wallHeight / 2; // Calculate the y-coordinate for the wall
-
-    // // Create and add the connected walls around the player cannon
-    // QGraphicsPixmapItem *wall1 = new QGraphicsPixmapItem(QPixmap(":/Sprites/Full_Walls.png"));
-    // wall1->setPos(wallX - 85, wallY - 85); // Adjust the position to surround the player
-    // wall1->setScale(0.5); // Adjust the scale of the wall item if necessary
-    // scene->addItem(wall1);
-
-    // // Ensure the player/cannon is drawn on top of the walls
-    // player->setZValue(1); // Set the stacking order of the player/cannon
-}
-
 void Game::addVillageHouse() {
     // Define dimensions for the village house
     int villageWidth = 100; // Adjust as needed
@@ -134,4 +108,10 @@ void Game::addVillageHouse() {
 
 QPointF Game::getmaxPoint(){
     return maxPoint;
+}
+
+void Game::increaseHealth(){
+    if (score->getScore() % 100 == 0){
+        health->maxHealthIncrease();
+    }
 }

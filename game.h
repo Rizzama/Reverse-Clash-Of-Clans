@@ -8,7 +8,13 @@
 #include "health.h"
 #include <QPointF>
 #include "score.h"
+#include "enemy.h"
+
 class Game : public QGraphicsView {
+
+public slots:
+    void increaseHealth();
+
 public:
     Game(QWidget *parent, const QString& playerName = "Player1"); // Modified constructor
     void spawnEnemy();
@@ -16,7 +22,6 @@ public:
     void increaseScore();
     void addVillageHouse();
     QPointF getmaxPoint();
-
 
 private:
     QPointF maxPoint;
