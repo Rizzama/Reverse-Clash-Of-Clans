@@ -14,7 +14,6 @@ public:
     void spawnEnemy();
     void decreaseHealth();
     void increaseScore();
-    void addWalls();
     void addVillageHouse();
     QPointF getmaxPoint();
 
