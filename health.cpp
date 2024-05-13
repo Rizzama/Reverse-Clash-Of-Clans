@@ -27,8 +27,6 @@ void Health::decrease()
     health=health-5;
     setPlainText(QString("Health: ") + QString::number(health)); // Health: 90
     setDefaultTextColor(Qt::red);
-    setPlainText(QString("Health: ") + QString::number(health)); // Health: 90
-    setDefaultTextColor(Qt::white);
     if (health == 0)
     {
         gameover();
@@ -52,7 +50,7 @@ void Health::gameover()
     gameover->setFont (QFont ("times", 40)) ;
     gameover->setDefaultTextColor(Qt::black);
     gameover->setPlainText("Game Over");
-    gameover->setPos (300, 250) ;
+    gameover->setPos (300, 300) ;
 
     scene()->addItem (gameover);
     womp_womp_sound ->play();

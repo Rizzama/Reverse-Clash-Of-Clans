@@ -5,6 +5,7 @@
 #include <QDebug>
 #include "cannonball.h"
 #include <QTimer>
+#include "clan.h"
 
 int Player::id = 0;
 
@@ -13,7 +14,6 @@ Player::Player(QString name)
     id++;
     this->name = name;
     this->level = 0;
-    this->clan = nullptr;
     this->current_state = "";
 
     cannonball_output = new QAudioOutput(this);
@@ -51,16 +51,6 @@ int Player::getLevel() const
     return level;
 }
 
-void Player::setClan(Clan* clan)
-{
-    this->clan = clan;
-}
-
-Clan* Player::getClan() const
-{
-    return clan;
-}
-
 void Player::keyPressEvent(QKeyEvent *event) {
     QString cannonState;
     QPixmap cannonLeft(":/Sprites/Cannon Left.png");
@@ -72,7 +62,7 @@ void Player::keyPressEvent(QKeyEvent *event) {
     QPixmap cannonDownRight(":/Sprites/Cannon21B.png");
     QPixmap cannonDownLeft(":/Sprites/Cannon_Down_Left.png");
 
-    if (event->key() == Qt::Key_Left){
+    if (event->key() == Qt::Key_4){
         cannonLeft = cannonLeft.scaled(cannonLeft.width() / 3, cannonLeft.height() / 3);
         this->setPixmap(cannonLeft);
         this->setPos(230.79,130.29);
@@ -80,21 +70,21 @@ void Player::keyPressEvent(QKeyEvent *event) {
         this->current_state = "Left";
 
         qDebug() << cannonState;
-    } else if (event->key() == Qt::Key_Right){
+    } else if (event->key() == Qt::Key_6){
         cannonRight = cannonRight.scaled(cannonRight.width() / 3.25, cannonRight.height() / 3.25);
         this->setPixmap(cannonRight);
         this->setPos(241.29,141.29);
         cannonState = "Right"; // Update cannonState to reflect right direction
         this->current_state = "Right";
         qDebug() << cannonState;
-    } else if (event->key() == Qt::Key_Down){
+    } else if (event->key() == Qt::Key_2){
         cannonDown = cannonDown.scaled(cannonDown.width() / 3.25,  cannonDown.height() / 3.25);
         this->setPixmap(cannonDown);
         this->setPos(241.29,141.29);
         cannonState = "Down"; // Update cannonState to reflect down direction
         this->current_state = "Down";
         qDebug() << cannonState;
-    } else if(event->key() == Qt::Key_Up){
+    } else if(event->key() == Qt::Key_8){
         cannonUp = cannonUp.scaled(cannonUp.width() / 3.25, cannonUp.height() / 3.25);
         this->setPixmap(cannonUp);
         this->setPos(241.29,141.29);
@@ -103,35 +93,35 @@ void Player::keyPressEvent(QKeyEvent *event) {
 
         qDebug() << cannonState;
     }
-    else if (event->modifiers() & Qt::Key_Up && event->modifiers() & Qt::Key_Right){
-        cannonUpRight = cannonUpRight.scaled(cannonUpRight.width() / 3.25, cannonUpRight.height() / 3.25);
+    else if (event->key() == Qt::Key_9 ){
+        cannonUpRight = cannonUpRight.scaled(cannonUpRight.width() / 6, cannonUpRight.height() / 6);
         this->setPixmap(cannonUpRight);
-        this->setPos(241.29,141.29);
+        this->setPos(291.29,191.29);
         cannonState = "Up Right"; // Update cannonState to reflect up direction
         this->current_state = "Up Right";
 
         qDebug() << cannonState;
-    }     else if (event->modifiers() & Qt::Key_Up && event->modifiers() & Qt::Key_Left){
-        cannonUpLeft = cannonUpLeft.scaled(cannonUpLeft.width() / 3.25, cannonUpLeft.height() / 3.25);
+    } else if (event->key() == Qt::Key_7){
+        cannonUpLeft = cannonUpLeft.scaled(cannonUpLeft.width() / 6, cannonUpLeft.height() / 6);
         this->setPixmap(cannonUpLeft);
-        this->setPos(241.29,141.29);
+        this->setPos(291.29,191.29);
         cannonState = "Up Left"; // Update cannonState to reflect up direction
         this->current_state = "Up Left";
 
         qDebug() << cannonState;
     }
-    else if (event->modifiers() & Qt::Key_Down && event->modifiers() & Qt::Key_Right){
-        cannonUpRight = cannonDownRight.scaled(cannonDownRight.width() / 3.25, cannonDownRight.height() / 3.25);
+    else if (event->key() == Qt::Key_3){
+        cannonUpRight = cannonDownRight.scaled(cannonDownRight.width() / 6, cannonDownRight.height() /6);
         this->setPixmap(cannonDownRight);
-        this->setPos(241.29,141.29);
+       this->setPos(400-100, 300-82);
         cannonState = "Down Right"; // Update cannonState to reflect up direction
         this->current_state = "Down Right";
 
         qDebug() << cannonState;
-    }     else if (event->modifiers() & Qt::Key_Down && event->modifiers() & Qt::Key_Left){
-        cannonUpRight = cannonDownLeft.scaled(cannonDownLeft.width() / 3.25, cannonDownLeft.height() / 3.25);
+    }else if (event->key() == Qt::Key_1){
+        cannonDownLeft = cannonDownLeft.scaled(cannonDownLeft.width() / 4.75, cannonDownLeft.height() / 4.75);
         this->setPixmap(cannonDownLeft);
-        this->setPos(241.29,141.29);
+          this->setPos(271.29,171.29);
         cannonState = "Down Left"; // Update cannonState to reflect up direction
         this->current_state = "Down Left";
 
@@ -158,5 +148,12 @@ void Player::createEnemy()
 { Enemy* enemy = new Enemy();
     scene()->addItem(enemy);
  //   enemy->playSpawnSound();
+
+}
+void Player::createWall()
+{ Clan* clan = new Clan();
+    scene()->addItem(clan);
+    this->setZValue(1); // Set the stacking order of the player/cannon
+    //   enemy->playSpawnSound();
 
 }

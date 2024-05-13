@@ -25,6 +25,8 @@ private:
     QAudioOutput * attack_output;
     QMediaPlayer * spawn_sound;
     QAudioOutput * spawn_output;
+    int spawning_area;
+
 };
 
 #endif // ENEMY_H

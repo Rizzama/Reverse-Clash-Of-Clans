@@ -1,7 +1,6 @@
 #ifndef PLAYER_H
 #define PLAYER_H
 
-#include "clan.h"
 #include "QString"
 #include "qmediaplayer.h"
 #include <QGraphicsPixmapItem>
@@ -12,7 +11,6 @@ private:
     static int id;
     QString name;
     int level;
-    Clan* clan;
     QMediaPlayer * cannonball_sound;
     QAudioOutput * cannonball_output;
     QString current_state;
@@ -24,13 +22,12 @@ public:
     QString getName() const;
     void setLevel(int level);
     int getLevel() const;
-    void setClan(Clan* clan);
-    Clan* getClan() const;
 
 
 public slots:
     void keyPressEvent(QKeyEvent *Event);
     void createEnemy();
+    void createWall();
 };
 
 #endif // PLAYER_H
