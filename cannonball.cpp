@@ -15,6 +15,14 @@ Cannonball::Cannonball(QPointF cannonPos, QGraphicsItem *parent, QString cannon_
     : QObject(), QGraphicsPixmapItem(parent) {
     QPixmap cannonBall(":/Sprites/228px-Cannon_Ball.png");
 
+
+    //*** Adding Enemy Death Sound Effect *****
+    enemy_death_output = new QAudioOutput(this); // Using 'this' as parent
+    enemy_death_output->setVolume(5);
+    enemy_death_sound = new QMediaPlayer(this); // Using 'this' as parent
+    enemy_death_sound->setAudioOutput(enemy_death_output);
+    enemy_death_sound->setSource(QUrl("qrc:/Sounds/EnemyDeathCry.mp3"));
+
     qDebug() << cannonPos << " " << this->pos();
     cannonState = cannon_State; // Assigns local cannonState variable with the one passed by player.cpp
 
@@ -102,6 +110,7 @@ void Cannonball::movebullet() {
             scene()->removeItem(colliding_items[i]);
             scene()->removeItem(this);
             game->increaseScore();
+            enemy_death_sound->play();
             delete colliding_items[i];
             delete this;
             return;

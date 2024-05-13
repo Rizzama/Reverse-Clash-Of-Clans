@@ -4,6 +4,7 @@
 #include <QGraphicsPixmapItem>
 #include <QObject>
 #include <QMediaPLayer>
+#include <QAudioOutput>
 #include <QKeyEvent>
 
 class Cannonball: public QObject, public QGraphicsPixmapItem

@@ -33,7 +33,7 @@ void Health::decrease()
     // Use QTimer to revert the color back to white after 500 milliseconds (adjust as needed)
     QTimer::singleShot(500, this, &Health::resetColor);
 
-    if (health == 0)
+    if (health <= 0)
     {
         gameover();
     }
@@ -62,4 +62,9 @@ void Health::gameover()
 
     scene()->addItem (gameover);
     womp_womp_sound ->play();
+    health = 0;
+    setPlainText(QString("Health: ") + QString::number(health)); // Health: 3
+    setDefaultTextColor(Qt::white);
+    setFont(QFont("times",16));
+
 }
