@@ -8,7 +8,7 @@
 #include "health.h"
 #include <QPointF>
 #include "score.h"
-#include "enemy.h"
+#include "wave.h"
 
 class Game : public QGraphicsView {
 
@@ -28,6 +28,7 @@ private:
     Health *health;
     Score *score;
     Player *player;
+    Wave *wave;
     QGraphicsScene *scene;
     QString playerName; // Added member variable to store the player's name
 };

@@ -19,7 +19,8 @@ SOURCES += \
     main.cpp \
     clan.cpp \
     score.cpp \
-    village.cpp
+    village.cpp \
+    wave.cpp
 
 HEADERS += \
     Player.h \
@@ -30,7 +31,8 @@ HEADERS += \
     game.h \
     health.h \
     score.h \
-    village.h
+    village.h \
+    wave.h
 
 FORMS += \
     clan.ui

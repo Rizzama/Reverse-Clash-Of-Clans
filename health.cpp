@@ -66,7 +66,7 @@ void Health::gameover()
     health = 0;
     setPlainText(QString("Health: ") + QString::number(health)); // Health: 3
     setDefaultTextColor(Qt::white);
-    setFont(QFont("times",16));
+    setFont(QFont("times",16));   
 }
 
 void Health::maxHealthIncrease(){

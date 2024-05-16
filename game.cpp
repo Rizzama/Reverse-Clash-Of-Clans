@@ -66,11 +66,16 @@ Game::Game(QWidget *parent, const QString& playerName)
     score->setPos(health->x(), health->y() + 25);
     scene->addItem(score);
 
+    player = new Player();
+    wave = new Wave(player);
+    wave->setPos(health->x(), score->y() + 25);
+    scene->addItem(wave);
+
     addVillageHouse();
 
     player->createWall();
 
-    //call enimes
+    //call enemies
     player->createEnemy();
 
 }
