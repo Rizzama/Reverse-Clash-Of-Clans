@@ -1,0 +1,3 @@
+D:/AUC-CPP/Reverse-Clash-of-Clans/cmake-build-debug/CMakeFiles/Reverse_Clash_of_Clans.dir
+D:/AUC-CPP/Reverse-Clash-of-Clans/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/AUC-CPP/Reverse-Clash-of-Clans/cmake-build-debug/CMakeFiles/rebuild_cache.dir

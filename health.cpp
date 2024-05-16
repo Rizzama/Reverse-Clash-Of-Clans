@@ -27,8 +27,8 @@ Health::Health(){
 // ***** set health to current health after decrement ****
 void Health::decrease()
 {
-    health = health - 5;
-   setPlainText(QString("Health: ") + QString::number(health) + QString("/") + QString::number(maxHealth)); // Health: 90
+    health = health - 15;
+    setPlainText(QString("Health: ") + QString::number(health) + QString("/") + QString::number(maxHealth)); // Health: 90
     setDefaultTextColor(Qt::red);
 
     // Use QTimer to revert the color back to white after 500 milliseconds (adjust as needed)
@@ -70,7 +70,7 @@ void Health::gameover()
 }
 
 void Health::maxHealthIncrease(){
-    maxHealth = maxHealth + 20;
+    maxHealth = maxHealth + 10;
     health = maxHealth;
     setPlainText(QString("Health: ") + QString::number(health) + QString("/") + QString::number(maxHealth));
 }

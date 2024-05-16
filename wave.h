@@ -8,6 +8,7 @@ class Wave : public QGraphicsTextItem {
 public:
     Wave(Player *player);
     int getWave();
+    void displayWave();
 
 private:
     Player *player;

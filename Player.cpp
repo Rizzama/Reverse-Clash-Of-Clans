@@ -160,3 +160,7 @@ void Player::createWall()
 int Player::getTimes(){
     return times;
 }
+
+void Player::setTimes(){
+    times ++;
+}

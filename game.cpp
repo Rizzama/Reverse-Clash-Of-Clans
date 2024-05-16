@@ -66,7 +66,6 @@ Game::Game(QWidget *parent, const QString& playerName)
     score->setPos(health->x(), health->y() + 25);
     scene->addItem(score);
 
-    player = new Player();
     wave = new Wave(player);
     wave->setPos(health->x(), score->y() + 25);
     scene->addItem(wave);
@@ -86,6 +85,7 @@ void Game::decreaseHealth(){
 void Game::increaseScore(){
     score->increase();
     increaseHealth();
+    setWaves();
 }
 void Game::addVillageHouse() {
     // Define dimensions for the village house
@@ -118,5 +118,12 @@ QPointF Game::getmaxPoint(){
 void Game::increaseHealth(){
     if (score->getScore() % 100 == 0){
         health->maxHealthIncrease();
+    }
+}
+
+void Game::setWaves(){
+    if (score->getScore() % 100 == 0){
+        player->setTimes();
+        wave->displayWave();
     }
 }

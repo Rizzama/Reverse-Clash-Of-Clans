@@ -170,6 +170,10 @@ void Enemy::spawnEnemy()
 
 void Enemy::increaseSpawnRate(){
     if (score->getScore() % 100 == 0){
-        timer->start(143 / player->getTimes());
+        if (player->getTimes() == 0){
+            timer->start(1000);
+        } else{
+            timer->start(1000 / player->getTimes());
+        }
     }
 }

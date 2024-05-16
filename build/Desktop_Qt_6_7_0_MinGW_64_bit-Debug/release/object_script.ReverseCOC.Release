@@ -8,6 +8,7 @@ release/main.o
 release/clan.o
 release/score.o
 release/village.o
+release/wave.o
 release/qrc_Demo_Sounds.o
 release/qrc_Resources_fr.o
 release/moc_Player.o

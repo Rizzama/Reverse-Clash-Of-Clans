@@ -14,6 +14,7 @@ class Game : public QGraphicsView {
 
 public slots:
     void increaseHealth();
+    void setWaves();
 
 public:
     Game(QWidget *parent, const QString& playerName = "Player1"); // Modified constructor
@@ -22,6 +23,7 @@ public:
     void increaseScore();
     void addVillageHouse();
     QPointF getmaxPoint();
+
 
 private:
     QPointF maxPoint;

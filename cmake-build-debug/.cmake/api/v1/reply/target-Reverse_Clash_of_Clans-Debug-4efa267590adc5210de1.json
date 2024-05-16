@@ -1,0 +1,6212 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Reverse_Clash_of_Clans.exe"
+		},
+		{
+			"path" : "Reverse_Clash_of_Clans.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++14 -fdiagnostics-color=always"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "D:/AUC-CPP/Reverse-Clash-of-Clans/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/AUC-CPP/Reverse-Clash-of-Clans/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/AUC-CPP/Reverse-Clash-of-Clans/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/debug"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				917,
+				919,
+				921,
+				923,
+				928,
+				930,
+				932,
+				946,
+				958,
+				961,
+				969,
+				976,
+				980,
+				982,
+				983,
+				985,
+				993,
+				995,
+				1001
+			]
+		}
+	],
+	"id" : "Reverse_Clash_of_Clans::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Reverse_Clash_of_Clans",
+	"nameOnDisk" : "Reverse_Clash_of_Clans.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				257,
+				258,
+				259,
+				260,
+				261,
+				262,
+				263,
+				264,
+				265,
+				266,
+				267,
+				268,
+				269,
+				270,
+				271,
+				272,
+				273,
+				274,
+				275,
+				276,
+				277,
+				278,
+				279,
+				280,
+				281,
+				282,
+				283,
+				284,
+				285,
+				286,
+				287,
+				288,
+				289,
+				290,
+				291,
+				292,
+				293,
+				294,
+				295,
+				296,
+				297,
+				298,
+				299,
+				300,
+				301,
+				302,
+				303,
+				304,
+				305,
+				306,
+				307,
+				308,
+				309,
+				310,
+				311,
+				312,
+				313,
+				314,
+				315,
+				316,
+				317,
+				318,
+				319,
+				320,
+				321,
+				322,
+				323,
+				324,
+				325,
+				326,
+				327,
+				328,
+				329,
+				330,
+				331,
+				332,
+				333,
+				334,
+				335,
+				336,
+				337,
+				338,
+				339,
+				340,
+				341,
+				342,
+				343,
+				344,
+				345,
+				346,
+				347,
+				348,
+				349,
+				350,
+				351,
+				352,
+				353,
+				354,
+				355,
+				356,
+				357,
+				358,
+				359,
+				360,
+				361,
+				362,
+				363,
+				364,
+				365,
+				366,
+				367,
+				368,
+				369,
+				370,
+				371,
+				372,
+				373,
+				374,
+				375,
+				376,
+				377,
+				378,
+				379,
+				380,
+				381,
+				382,
+				383,
+				384,
+				385,
+				386,
+				387,
+				388,
+				389,
+				390,
+				391,
+				392,
+				393,
+				394,
+				395,
+				396,
+				397,
+				398,
+				399,
+				400,
+				401,
+				402,
+				403,
+				404,
+				405,
+				406,
+				407,
+				408,
+				409,
+				410,
+				411,
+				412,
+				413,
+				414,
+				415,
+				416,
+				417,
+				418,
+				419,
+				420,
+				421,
+				422,
+				423,
+				424,
+				425,
+				426,
+				427,
+				428,
+				429,
+				430,
+				431,
+				432,
+				433,
+				434,
+				435,
+				436,
+				437,
+				438,
+				439,
+				440,
+				441,
+				442,
+				443,
+				444,
+				445,
+				446,
+				447,
+				448,
+				449,
+				450,
+				451,
+				452,
+				453,
+				454,
+				455,
+				456,
+				457,
+				458,
+				459,
+				460,
+				461,
+				462,
+				463,
+				464,
+				465,
+				466,
+				467,
+				468,
+				469,
+				470,
+				471,
+				472,
+				473,
+				474,
+				475,
+				476,
+				477,
+				478,
+				479,
+				480,
+				481,
+				482,
+				483,
+				484,
+				485,
+				486,
+				487,
+				488,
+				489,
+				490,
+				491,
+				492,
+				493,
+				494,
+				495,
+				496,
+				497,
+				498,
+				499,
+				500,
+				501,
+				502,
+				503,
+				504,
+				505,
+				506,
+				507,
+				508,
+				509,
+				510,
+				511,
+				512,
+				513,
+				514,
+				515,
+				516,
+				517,
+				518,
+				519,
+				520,
+				521,
+				522,
+				523,
+				524,
+				525,
+				526,
+				527,
+				528,
+				529,
+				530,
+				531,
+				532,
+				533,
+				534,
+				535,
+				536,
+				537,
+				538,
+				539,
+				540,
+				541,
+				542,
+				543,
+				544,
+				545,
+				546,
+				547,
+				548,
+				549,
+				550,
+				551,
+				552,
+				553,
+				554,
+				555,
+				556,
+				557,
+				558,
+				559,
+				560,
+				561,
+				562,
+				563,
+				564,
+				565,
+				566,
+				567,
+				568,
+				569,
+				570,
+				571,
+				572,
+				573,
+				574,
+				575,
+				576,
+				577,
+				578,
+				579,
+				580,
+				581,
+				582,
+				583,
+				584,
+				585,
+				586,
+				587,
+				588,
+				589,
+				590,
+				591,
+				592,
+				593,
+				594,
+				595,
+				596,
+				597,
+				598,
+				599,
+				600,
+				601,
+				602,
+				603,
+				604,
+				605,
+				606,
+				607,
+				608,
+				609,
+				610,
+				611,
+				612,
+				613,
+				614,
+				615,
+				616,
+				617,
+				618,
+				619,
+				620,
+				621,
+				622,
+				623,
+				624,
+				625,
+				626,
+				627,
+				628,
+				629,
+				630,
+				631,
+				632,
+				633,
+				634,
+				635,
+				636,
+				637,
+				638,
+				639,
+				640,
+				641,
+				642,
+				643,
+				644,
+				645,
+				646,
+				647,
+				648,
+				649,
+				650,
+				651,
+				652,
+				653,
+				654,
+				655,
+				656,
+				657,
+				658,
+				659,
+				660,
+				661,
+				662,
+				663,
+				664,
+				665,
+				666,
+				667,
+				668,
+				669,
+				670,
+				671,
+				672,
+				673,
+				674,
+				675,
+				676,
+				677,
+				678,
+				679,
+				680,
+				681,
+				682,
+				683,
+				684,
+				685,
+				686,
+				687,
+				688,
+				689,
+				690,
+				691,
+				692,
+				693,
+				694,
+				695,
+				696,
+				697,
+				698,
+				699,
+				700,
+				701,
+				702,
+				703,
+				704,
+				705,
+				706,
+				707,
+				708,
+				709,
+				710,
+				711,
+				712,
+				713,
+				714,
+				715,
+				716,
+				717,
+				718,
+				719,
+				720,
+				721,
+				722,
+				723,
+				724,
+				725,
+				726,
+				727,
+				728,
+				729,
+				730,
+				731,
+				732,
+				733,
+				734,
+				735,
+				736,
+				737,
+				738,
+				739,
+				740,
+				741,
+				742,
+				743,
+				744,
+				745,
+				746,
+				747,
+				748,
+				749,
+				750,
+				751,
+				752,
+				753,
+				754,
+				755,
+				756,
+				757,
+				758,
+				759,
+				760,
+				761,
+				762,
+				763,
+				764,
+				765,
+				766,
+				767,
+				768,
+				769,
+				770,
+				771,
+				772,
+				773,
+				774,
+				775,
+				776,
+				777,
+				778,
+				779,
+				780,
+				781,
+				782,
+				783,
+				784,
+				785,
+				786,
+				787,
+				788,
+				789,
+				790,
+				791,
+				792,
+				793,
+				794,
+				795,
+				796,
+				797,
+				798,
+				799,
+				800,
+				801,
+				802,
+				803,
+				804,
+				805,
+				806,
+				807,
+				808,
+				809,
+				810,
+				811,
+				812,
+				813,
+				814,
+				815,
+				816,
+				817,
+				818,
+				819,
+				820,
+				821,
+				822,
+				823,
+				824,
+				825,
+				826,
+				827,
+				828,
+				829,
+				830,
+				831,
+				832,
+				833,
+				834,
+				835,
+				836,
+				837,
+				838,
+				839,
+				840,
+				841,
+				842,
+				843,
+				844,
+				845,
+				846,
+				847,
+				848,
+				849,
+				850,
+				851,
+				852,
+				853,
+				854,
+				855,
+				856,
+				857,
+				858,
+				859,
+				860,
+				861,
+				862,
+				863,
+				864,
+				865,
+				866,
+				867,
+				868,
+				869,
+				870,
+				871,
+				872,
+				873,
+				874,
+				875,
+				876,
+				877,
+				878,
+				879,
+				880,
+				881,
+				882,
+				883,
+				884,
+				885,
+				886,
+				887,
+				888,
+				889,
+				890,
+				891,
+				892,
+				893,
+				894,
+				895,
+				896,
+				897,
+				898,
+				899,
+				900,
+				901,
+				902,
+				903,
+				904,
+				905,
+				906,
+				907,
+				908,
+				909,
+				926,
+				934,
+				937,
+				938,
+				939,
+				940,
+				941,
+				943,
+				945,
+				948,
+				950,
+				960,
+				963,
+				964,
+				965,
+				966,
+				967,
+				968,
+				972,
+				973,
+				975,
+				987,
+				988,
+				989,
+				990,
+				991,
+				992,
+				998
+			]
+		},
+		{
+			"name" : "Object Files",
+			"sourceIndexes" : 
+			[
+				910,
+				911,
+				912,
+				913,
+				914,
+				915,
+				916,
+				918,
+				920,
+				922,
+				924,
+				927,
+				929,
+				931,
+				933,
+				935,
+				936
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				917,
+				919,
+				921,
+				923,
+				928,
+				930,
+				932,
+				946,
+				958,
+				961,
+				969,
+				976,
+				980,
+				982,
+				983,
+				985,
+				993,
+				995,
+				1001
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				925,
+				942,
+				947,
+				959,
+				962,
+				970,
+				977,
+				981,
+				986,
+				994,
+				996,
+				1002
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				944,
+				949,
+				951,
+				952,
+				953,
+				954,
+				955,
+				956,
+				957,
+				971,
+				974,
+				978,
+				979,
+				984,
+				997,
+				999,
+				1000
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : ".idea/.gitignore",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".idea/modules.xml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".idea/Reverse-Clash-of-Clans.iml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".idea/vcs.xml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".idea/workspace.xml",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_llvm_mingw_64_bit-Debug/.qtc_clangd/compile_commands.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/__stddef_max_align_t.h.5801A56601330007.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/__wmmintrin_aes.h.0CE161DF9A50AF94.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/__wmmintrin_pclmul.h.9A7C2902255553D4.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_mingw.h.532598E2AD6AFBAA.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_mingw_ddk.h.E3F6DB28E38AEB23.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_mingw_mac.h.9198F397409CDF19.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_mingw_off_t.h.C0879506B5058724.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_mingw_secapi.h.6F2F2818527DD0E7.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_mingw_stat64.h.479209ED20300D49.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/_timeval.h.213B0AB4FED9EC61.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/adxintrin.h.34AFE349955D136D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/algorithm.A1889551DAE9B55C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/algorithmfwd.h.598145668B3C130C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/align.h.351A06A9BA28B023.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/aligned_buffer.h.8A43AD92F0FEE57F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/alloc_traits.h.E75CD008A38AE46D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/alloc_traits.h.F92B4558C33BD794.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/allocated_ptr.h.4205681AC0D92783.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/allocator.h.1992344B8B90EFEA.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/amxcomplexintrin.h.9DE3412191B05E63.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/amxfp16intrin.h.2AAEBD6BC9A4C31B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/amxintrin.h.4055DD3268D5D822.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/array.D8CC4EA9B2E0C9E6.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/assert.h.388F36FCDCFCB839.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/assertions.h.BB28460347BF6DB2.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/atomic.2C025780057FE341.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/atomic_base.h.29535FD3F718DBBF.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/atomic_futex.h.F30630F98C5659E6.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/atomic_lockfree_defines.h.44959C94783142EF.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/atomic_word.h.C1F74962EA5E7342.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/atomicity.h.E64091687530500E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/auto_ptr.h.0DFC59888FB88CFB.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avx2intrin.h.AA1CD1A0AFAF7DD2.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avx512bf16intrin.h.2587ACF78C8CD99E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avx512bitalgintrin.h.BC49DAD81B429E3B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avx512bwintrin.h.54539735FDCA8291.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avx512cdintrin.h.4D4F55BD393CD627.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avx512dqintrin.h.255F1DB1DE09E9A1.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avx512erintrin.h.64F91951B2C766F7.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avx512fintrin.h.F73953CE13B8750B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avx512fp16intrin.h.7DBACD4AC9CFE76C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avx512ifmaintrin.h.76E9BABE4BF2D9AB.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avx512ifmavlintrin.h.E947BD2956670A9E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avx512pfintrin.h.C3DF9DE9018BDBE5.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avx512vbmi2intrin.h.34CAD35A1345D987.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avx512vbmiintrin.h.5CD638499CF47F70.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avx512vbmivlintrin.h.A912B2EF6A9227E2.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avx512vlbf16intrin.h.C3D6A42AADE9228E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avx512vlbitalgintrin.h.AB283ACA869E149B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avx512vlbwintrin.h.DF67C58AA5475045.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avx512vlcdintrin.h.8974F586189FA5DF.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avx512vldqintrin.h.13E61DEBF04285FA.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avx512vlfp16intrin.h.9751230415A1ADCA.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avx512vlintrin.h.D758DA6C63046F79.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avx512vlvbmi2intrin.h.2F5A0FD3D3C1A375.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avx512vlvnniintrin.h.CCCA06E2874D82CA.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avx512vlvp2intersectintrin.h.16B3783CBDA77F91.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avx512vnniintrin.h.C33089BEF059FBE9.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avx512vp2intersectintrin.h.7182851A65F4E878.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avx512vpopcntdqintrin.h.D02577182C8EF669.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avx512vpopcntdqvlintrin.h.06FB2B14E4C07ED7.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avxifmaintrin.h.9DC162937E76ABB6.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avxintrin.h.E59AC1836CAFD1D9.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avxneconvertintrin.h.732CAA3A6675EEDE.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avxvnniint16intrin.h.8872E3C1505834A9.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avxvnniint8intrin.h.C6A70082C8DA22C6.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/avxvnniintrin.h.8777B2794F6B1A59.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/basic_ios.h.19052EFDC91D9DEE.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/basic_ios.tcc.1598D4FA9FD9BF40.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/basic_string.h.823E07DC3795FFBB.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/basic_string.tcc.C3FBE2D76B40607E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/bessel_function.tcc.C1CED09C104B256A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/beta_function.tcc.54754AC3A6BDAB69.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/binders.h.E45B7ECD5246F51A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/bit.E6E1571C0612D5D2.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/bmi2intrin.h.25182D9931A2896D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/bmiintrin.h.B48E9FD9EF0485D4.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/building.cpp.7F2F04E8D82B2BAD.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/building.h.A37A4A33C6E3E341.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/c++allocator.h.D41C09FD356F526A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/c++config.h.A0E227C3061AC082.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/c++locale.h.262EE386376C37FF.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cannonball.cpp.BF07C0C55EB19402.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cannonball.h.669BE5C9A721DA06.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cassert.95AE32FBEC47AA13.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cctype.8BC0BA00D8C04759.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cerrno.E5EDF6250DDCCC08.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cetintrin.h.B06C1B4796DE4958.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/char_traits.h.C7DFBDF90CC88240.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/charconv.h.C33BE82E5DF8757F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/chrono.2E88EDAF6CA818A7.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/clan.cpp.7E5DADFA08D572A6.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/clan.h.7425B0D973701760.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cldemoteintrin.h.D20B90078ADFE959.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/clflushoptintrin.h.4F16F6889DFEEE4C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/climits.24937D0F3F25F9F4.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/clocale.C4AE8306AA3794D9.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/clwbintrin.h.210BE235ACEA6F2E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cmath.1494395BA6193A79.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cmpccxaddintrin.h.D680DF48FB7747BA.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/codecvt.D9ED2D346DE61FF7.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/codecvt.h.BB3BEDDCC972C918.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/concept_check.h.7322BD5FE2B4F016.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/concurrence.h.4E842A7FD8D10305.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/condition_variable.065200CFC58F5696.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/corecrt.h.357C02438377772B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/corecrt_startup.h.613F539261943828.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/corecrt_stdio_config.h.C4AF7E960384AB4D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/corecrt_wstdlib.h.AB3E724DDB278CF4.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cpp_type_traits.h.4FB017222E04AFFA.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cpu_defines.h.9951E3DF08997F6D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/crc32intrin.h.867AEC0F98CA16BC.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/crtdefs.h.4B56310F2DA16E3D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cstddef.9429C11F08051215.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cstdint.E18399A94B1D2B50.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cstdio.09CDDCA1ED76F9EA.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cstdlib.C439F380FCEA31CE.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cstring.1525E56A9E492C14.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ctime.489E81E1953F9A5B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ctype.h.7F6F610DFB44128D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ctype_base.h.2BF7C1EBF3582443.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ctype_inline.h.848DDA255EBC0D8D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cwchar.BE665CFC0E076540.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cwctype.F1174B1943092552.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cxxabi_forced.h.DDB16105AFDE79E5.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/cxxabi_init_exception.h.8DA025CF37C4F558.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/debug.h.6CFD79D9F5D0E083.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ell_integral.tcc.B8921E3E98D8F7C7.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/emmintrin.h.0DBBE9FAA8353F3F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/enable_special_members.h.1D7789C3C944DF46.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/enemy.cpp.A353FA8066F1BF04.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/enemy.h.84096A6738664EB7.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/enqcmdintrin.h.7B747FD152033EAA.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/erase_if.h.B08B3B47E17059A2.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/errno.h.AC9D58CDE888ED3E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/error_constants.h.22708424D96747D0.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/exception.7EF1CA633DEA85FE.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/exception.h.5B9927BBB3268166.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/exception_defines.h.09BF21F5B2550D6A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/exception_ptr.h.4CD5D242512300E3.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/execution_defs.h.81E64E8432569E6D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/exp_integral.tcc.5D8191D3D1840C5A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/f16cintrin.h.414956F20A09BF76.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/filesystem.590DAA1901F71441.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/fmaintrin.h.551F815922EA6917.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/fs_dir.h.97681F81355BEF1B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/fs_fwd.h.4DD0B5E440A5EFD1.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/fs_ops.h.7A618619328E8417.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/fs_path.h.6E4F1493A3E6F32B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/functexcept.h.2448644F461EAF71.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/functional.478211F8D8960721.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/functional_hash.h.E634B0573387F67E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/future.2EA1925A42AE9447.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/fxsrintrin.h.7868C3F5BDA1EF51.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/game.cpp.2BFBA893CE7F77F2.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/game.h.BCA2B98A4AC2D2B3.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/gamma.tcc.3520162A159DD6FD.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/gfniintrin.h.76CB1BFC6ECC7058.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/gl.h.5A6E36DC4A33F804.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/glue_algorithm_defs.h.CA56B34990982A95.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/glue_memory_defs.h.777DEA8F81BB9D35.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/glue_numeric_defs.h.3BBC0B1EB13974F7.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/gthr-default.h.F7524CF998D5D9E7.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/gthr.h.37164D79CBA82F3F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/hash_bytes.h.20F10A1F19F9EA66.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/hashtable.h.C7F614BFCD9682BC.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/hashtable_policy.h.68B54B9BF354F4C5.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/health.cpp.67D343CE2F4D7690.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/health.h.22C0DA44700EE7DC.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/hresetintrin.h.5191ADDA52D6C27E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/hypergeometric.tcc.80D9317A12274C86.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/immintrin.h.7D92EDA365466F79.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/initializer_list.CD52EE07141883FF.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/invoke.h.9D4E4FFFA6EC82B7.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/invpcidintrin.h.11080A2137632AE1.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/iomanip.A894C14EF789FD87.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ios.4E1EB5892A32082C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ios_base.h.112D66EE724B971B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/iosfwd.834161B56360B9C7.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/iostream.C370C8B2C52CB39E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/istream.C5B849145AEAA8D5.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/istream.tcc.525642EC9EF21CB3.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/iterator.57526E84ADAD477D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/keylockerintrin.h.FA1E71018B7327F9.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/legendre_function.tcc.108082BB2B221E69.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/limits.D6AB8C901DAB12E8.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/limits.h.87ECB3EE8AB5C46A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/limits.h.FF12C1BF9393E507.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/list.72A0CC4C9DE06944.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/list.tcc.BB5C8BC55B292816.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/locale.4D1719716C513E92.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/locale.h.95F6C82FA795F164.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/locale_classes.h.FBE02E486F686772.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/locale_classes.tcc.2B0012660DE4F5AC.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/locale_conv.h.95B7C9A9F8A4E790.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/locale_facets.h.4306220A0BF7F114.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/locale_facets.tcc.72E0D931F7C6C89B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/locale_facets_nonio.h.7876718ED562171C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/locale_facets_nonio.tcc.BE960E5C505B8F06.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/localefwd.h.4FC2C515E1D1C180.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/lzcntintrin.h.4723793159EE67FC.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/main.cpp.FFFB992E79138241.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/malloc.h.87431E174FAC5CA4.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/map.AC626D2347F67FD5.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/math.h.610CA4197FC391E4.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/memory.F82D10ACC1666D30.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/memory_resource.84601A258BE924E6.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/memoryfwd.h.64ACA37BF8B1C2DE.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/messages_members.h.CA7C6A311025C9D2.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/mm_malloc.h.AA5697CB79E3771D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/mmintrin.h.F456AAABD9AFF912.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/modified_bessel_func.tcc.B8F057A975E12B26.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/movdirintrin.h.4D83DD3966BC782B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/move.h.9E0135533F39CC0D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/mutex.387F3640250AE4DB.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/nested_exception.h.4A84163682F8D8E4.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/new.812DE2C38601E848.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/new_allocator.h.77D2BA09127A085D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/node_handle.h.1B325C70BBC89A1F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/numeric.5D36ED4313FD9E71.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/numeric_traits.h.614D086E93927B5B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/opt_random.h.6F9036BD5EAE7CF0.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/optional.EE68D12EC76BD557.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/os_defines.h.EBF37192AA44BBC9.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ostream.A991B340F5910928.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ostream.tcc.704ADBD4CBCE86FC.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ostream_insert.h.35A2E4309727E1B3.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/parse_numbers.h.5BC377677B02A5A5.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pconfigintrin.h.10ED031545AAF88E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pkuintrin.h.07C612ACE69A23BD.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/Player.cpp.07923AC9734CBEAD.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/Player.h.814E839FCB11A85C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pmmintrin.h.D7578D2C45E74C64.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/poly_hermite.tcc.8916B44932285D79.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/poly_laguerre.tcc.A0C19BF5FB980F95.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/popcntintrin.h.36E7831D32979DDD.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/postypes.h.226E49EA835CC4E9.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/predefined_ops.h.DB8BF1FFA4FE2549.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/prfchiintrin.h.C92718A2BD4672A4.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/process.h.84EED734FCCF2DF5.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pstl_config.h.691467B33B91496E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pthread.h.071EEB0CD5A5B8B4.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pthread_compat.h.F337954A8C3FA1F5.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pthread_signal.h.5E6604E82031B91F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pthread_time.h.7E49D831CE7D5D43.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/pthread_unistd.h.795A6E354A455E22.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ptr_traits.h.D79218FBD487EEF2.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ptwriteintrin.h.A9F199C3AE3A5A5C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/q20algorithm.h.2CD4EF01CC0DD49A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/q20chrono.h.6D2E570C2794C6DD.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/q20functional.h.E93BC0CBA3D76153.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/q20iterator.h.70AF9D2E67B56C9B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/q20map.h.5A19C7BBC80B5680.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/q20memory.h.4A11E153C3E0D984.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/q20type_traits.h.A332B1FFA2734332.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/q20vector.h.15A2C2CA381FE17A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/q23functional.h.C6F9E6BD29947FEB.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/q23utility.h.F8B2D99881FDE862.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qabstractanimation.h.52EDE472E8F49499.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qabstracteventdispatcher.h.CDBB62376E426584.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qabstractfileiconprovider.h.5E11BC70B30BE9EF.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qabstractitemmodel.h.CC0B91BB0FFE7FFE.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qabstractnativeeventfilter.h.10A18D9EED07A30A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qabstractnetworkcache.h.1A47550243ADCD29.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qabstractproxymodel.h.8EDB390628BD3DC1.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qabstractscrollarea.h.F1AE1CF61C5D2756.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qabstractsocket.h.3FEEFEB1B82CFF20.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qabstracttextdocumentlayout.h.E17E57A1B1B757A1.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qaccessible.h.72BF04AE951E4933.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qaccessible_base.h.4ACE4F7A5DC16BD1.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qaccessiblebridge.h.DD1062BCDC29A836.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qaccessibleobject.h.857835E06928DC52.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qaccessibleplugin.h.5358AC36A11787F5.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qaction.h.815DA44DA3991518.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qactiongroup.h.054D4532716341D5.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qalgorithms.h.3CE0A95DA7757E09.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qanimationgroup.h.242182C545BBC800.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qanystringview.h.73CD02CDC9CA4E45.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QApplication.A2CB90689768DCCA.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qapplication.h.2802FCD8F5752E76.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qapplicationstatic.h.65F1271A731B7727.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qarraydata.h.F8648C49F4FD8542.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qarraydataops.h.25DA6B60F2F4D41D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qarraydatapointer.h.0435E21410EEF858.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qassert.h.6BF45FB25A14F3C3.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qassociativeiterable.h.61BFE2C072F40071.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qatomic.h.AA55D4017718BECE.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qatomic_cxx11.h.F4E328DA29C6B41C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qatomicscopedvaluerollback.h.C05E15601C0D0B68.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qaudio.h.A77FB7EFE53C4C8C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qaudiobuffer.h.252B9E7636D139B1.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qaudiodecoder.h.C5C5AD737D9F8E40.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qaudiodevice.h.D820A568398D1DC6.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qaudioformat.h.C258C6940CD7B1B6.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qaudioinput.h.D46EBD2CD9777AF6.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QAudioOutput.B31A4DA269257345.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qaudiooutput.h.311E5E1600436B78.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qaudiosink.h.3876896DBDC0999A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qaudiosource.h.228C222A241E3E11.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qauthenticator.h.2F79DEB2B1658BB5.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbackingstore.h.14C155ADC3E98E9E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbasicatomic.h.BE52D3838A9DB355.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbasictimer.h.8E8B0ABF5C7AD7FE.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbindingstorage.h.ACFB8426BAAFB00F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbitarray.h.52D4CD68711E8D35.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbitmap.h.D541E184968BB1BE.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QBrush.82CD4207A105E66C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbrush.h.9D753A10A540C95B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbuffer.h.358A4604C6B0104A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QByteArray.82D208B65267BA2E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbytearray.h.8FA8D73DA66EFEEA.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbytearrayalgorithms.h.4373F574E6C3591D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbytearraylist.h.9CA6D2DDC8BF15A3.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbytearraymatcher.h.A8672523C49F15BA.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qbytearrayview.h.6E9CB82C189C469B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcache.h.BA7965513AF6574B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcalendar.h.D73A7807EA056C44.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcamera.h.7250C912F1B7CE40.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcameradevice.h.AC4CDEEBDA61C956.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcapturablewindow.h.D199956BE7C6790C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcborarray.h.D7FF31B05A1BE918.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcborcommon.h.BACDEC8BB67CC9D5.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcbormap.h.39C079EBDD6C65AE.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcborstream.h.206BF0074266C306.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcborstreamreader.h.4681E23E2C3991B5.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcborstreamwriter.h.CA9E01FE8E8C23FF.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcborvalue.h.7C056F4A5D623C25.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qchar.h.F7C1D646EA4CFA13.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qclipboard.h.E5EF9CFDCD88B6F0.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcollator.h.CE76373E0E3EBC20.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcolor.h.6CC7AB01DC63F6BE.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcolorspace.h.D0FE211D6FFF55FA.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcolortransform.h.99AD6E7BA561F533.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcommandlineoption.h.23594A2150A8F3D6.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcommandlineparser.h.C29A737910F092FE.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcompare.h.AFF791592B0D25B1.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcompare_impl.h.F7AD7135FBC4F581.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcomparehelpers.h.D698A1D1DA181477.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcompilerdetection.h.6843F8FD43D42519.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qconcatenatetablesproxymodel.h.79BCA3527D0AEA44.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qconfig.h.FB5F352BD38E1A50.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qconstructormacros.h.2EF6E5F1CAADEFC8.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcontainerfwd.h.7B6EF62861972C8E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcontainerinfo.h.F44EC817F8B54E87.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcontainertools_impl.h.724F7C7B643CC54A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcontiguouscache.h.D020A194D939ED3C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcoreapplication.h.73204C7C4872391C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcoreapplication_platform.h.2867919DE1E95888.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcoreevent.h.307D9F5E16F9947D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QCryptographicHash.D2D4FABFAED1B950.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcryptographichash.h.011F4DDF02782A70.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qcursor.h.11F5ACB52E32FCFF.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qdarwinhelpers.h.3F41BF4A5F866440.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qdatastream.h.8FCC8B21A7D86E07.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qdatetime.h.D7C07C469835ADF4.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QDeadlineTimer.5CF25FEC707B8271.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qdeadlinetimer.h.1C304A5CF61AA6D4.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QDebug.8DC6CC5A6C1B8540.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qdebug.h.DC50E0321C621F46.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qdesktopservices.h.4ED765F5AAB3A6D6.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qdir.h.7CFE5F8493059541.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qdiriterator.h.F3910E7B7187D196.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qdnslookup.h.5FB444773E447154.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qdrag.h.84C4E9F6E79FA2D5.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qdtls.h.37F78D383105E4F9.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qeasingcurve.h.8FA373E2F29736E3.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qelapsedtimer.h.9A29C739CF3A8073.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qendian.h.A95D5D7989745613.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QEvent.C3A3BBF3C6D4BCCB.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qevent.h.2C181D0EA8AC6208.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qeventloop.h.A3E84B87AC80E3D2.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qeventpoint.h.23F009E3B6547568.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qexception.h.899A02888D6310BA.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qexceptionhandling.h.3679B3AF9FEDC841.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qfactoryinterface.h.C34A5407B71F7D09.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qfile.h.A5509C0B9435788D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qfiledevice.h.473F69B62373CC56.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qfileinfo.h.FE5BC0D1C3B7167B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qfileselector.h.8D601B1F8F02BC37.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qfilesystemmodel.h.1FE907B4AC6EC6B1.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qfilesystemwatcher.h.F6C73E5289516F8E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QFlags.DF861B3D647BB598.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qflags.h.93AB2439F04C267D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qfloat16.h.D66ED3A42AD09BE2.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QFont.FDE7ED28F1D02AB1.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qfont.h.F07F070FF698E3DE.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qfontdatabase.h.EF0AB31A7210C862.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qfontinfo.h.E7FD0D900C02C054.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qfontmetrics.h.15B38CC09DF2F0AD.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qforeach.h.95C25E6C6BF30C79.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qframe.h.66ABD74D882F85A0.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qfunctionaltools_impl.h.12B188D8A20DA281.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qfunctionpointer.h.ED3182452C66981F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qfuture.h.0CF035BC42DFC642.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qfuture_impl.h.4ED13A3C0DFF4979.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qfutureinterface.h.E3A29984BD12ECAB.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qfuturesynchronizer.h.0786DB3FFB9176C3.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qfuturewatcher.h.BD16B81DE3A4AA60.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qgenericatomic.h.E7712D9147F5838B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qgenericmatrix.h.D7E718211F59189F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qgenericplugin.h.F88FB49357BA50DE.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qgenericpluginfactory.h.7C472DD9882DFB19.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qglobal.h.95AB3AFAE951075F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qglobalstatic.h.8413831EB101A386.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qglyphrun.h.76C37E941F28C123.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QGraphicsItem.15A2E5A1CF5DE45E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qgraphicsitem.h.EC5C3E5F3C534035.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QGraphicsPixmapItem.FF0B36F21F706E20.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QGraphicsScene.41A9BCDA7F61AF8D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qgraphicsscene.h.FC1E862D9CAF23AF.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QGraphicsTextItem.C8D07B3CEF857982.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QGraphicsView.CF50BC488542A2C4.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qgraphicsview.h.D83E52CC1DFBFC59.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qguiapplication.h.D5AAC76AD61E48D1.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qguiapplication_platform.h.6E8BFAA423E8C0D6.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QHash.34D7DD4D9C67333C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qhash.h.83AF5000745A2A28.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qhashfunctions.h.55D0E5BC0973569E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qhostaddress.h.41E90568D52F94AF.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qhostinfo.h.A2C2E422BF6E3B01.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qhstspolicy.h.7D12BEAF102E6CB0.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qhttp1configuration.h.461840170E9BF3DC.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qhttp2configuration.h.8CAF4C98194170AD.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qhttpheaders.h.5B5B12A3CCE7C9D0.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qhttpmultipart.h.82418F336464C58C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qicon.h.64843C2E54959444.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qiconengine.h.8A3EC744952B45ED.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qiconengineplugin.h.CF9F635E43B668F6.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qidentityproxymodel.h.5E64DAA7F88FC159.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QImage.5B7327A592E474F4.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qimage.h.36FCEEF3F3CAA332.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qimagecapture.h.A8F7B1BA3BFC86D3.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qimageiohandler.h.E54D193805F4AC4B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qimagereader.h.79E5BFB623707C51.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qimagewriter.h.C6420E725A3E9ACE.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qinputdevice.h.3069B487EE248D2C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qinputmethod.h.C0ADABCCB41F17CF.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QIODevice.5945A19240A39C87.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qiodevice.h.723C60EE205B6DE0.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qiodevicebase.h.B2E56523EFCD2E93.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qitemselectionmodel.h.F56A5797C40F30F8.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qiterable.h.16FE9775469A7300.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qiterator.h.677F40307CD95B9A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qjsonarray.h.DF4B97EC25058EC0.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qjsondocument.h.43E5B03FFFBB46E6.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qjsonobject.h.44265A8CD45E4A30.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qjsonvalue.h.28E2AF88618FA3F2.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QKeyEvent.B42EDB9374878879.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qkeysequence.h.35F2821EC2019A61.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qlatin1stringmatcher.h.4970B0FE294B404B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qlatin1stringview.h.E366BE71A0876634.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qlibrary.h.569EB1FB84154F08.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qlibraryinfo.h.E2E04AF75A78A78C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qline.h.74F655CA7B251F20.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QList.179C2E73A27ACDEE.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qlist.h.D80D7B019034FFA2.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qlocale.h.B4A87EFD62B7E78C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qlocalserver.h.110267455525D022.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qlocalsocket.h.C9F55D3C774C9FAA.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qlockfile.h.96909729CB62FA64.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qlogging.h.32C96151ACC47132.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qloggingcategory.h.0D96FECF666A23EE.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QMainWindow.7D11A7306ED520C0.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qmainwindow.h.42BD8BF4EFE16B24.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qmalloc.h.E644918475418440.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QMap.BBD4E31EFDC2E1A6.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qmap.h.84BB57C28E96745A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QMargins.456B97947A2E4CFB.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qmargins.h.9461B2E7113DF9A8.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qmath.h.26C959FA3B7A6890.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qmatrix4x4.h.69E5123BDD01426A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qmediacapturesession.h.6F343C8534F5B1DF.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qmediadevices.h.7DDB8F5BF46DF0A5.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qmediaenumdebug.h.6CD97614AE253D52.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qmediaformat.h.C248673838C631CD.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qmediametadata.h.A2EFE280CBA73F76.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QMediaPlayer.58C32CF9703303B9.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qmediaplayer.h.C1456936FC593721.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qmediarecorder.h.81556E52B6D68EFF.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qmediatimerange.h.28C791F5473FD86C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qmenu.h.6431FBB2D8A8F795.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QMenuBar.49160C923FB610BB.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qmenubar.h.28ED3CDC870B144F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qmessageauthenticationcode.h.418FCD6A7066880A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qmetacontainer.h.EBE28EA1872EB510.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qmetaobject.h.F5F1BB641DAB23AC.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QMetaType.F05ABF7312F4EDD2.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qmetatype.h.22644EBBDE65C20C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qmimedata.h.C4B77707DDF4FF96.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qmimedatabase.h.0D80806F69A2AC68.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qmimetype.h.7D26C549A38B4EAC.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qminmax.h.F91F8CB79B5A6F3D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qmovie.h.018B5404F2369317.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QMutex.AC4AF5C1682543D7.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qmutex.h.03B59440AFB5C616.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qnamespace.h.0C6191FAAF6488FE.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qnativeinterface.h.8B7549CEB419A7C5.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QNetworkAccessManager.B17FC551B177534F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qnetworkaccessmanager.h.8D10E33935E48583.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qnetworkcookie.h.567BF79D730C10F7.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qnetworkcookiejar.h.A6E077C9B8821057.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qnetworkdatagram.h.485103B3F6884BA7.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qnetworkdiskcache.h.1D2FC12BB36BD2AF.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qnetworkinformation.h.01165B865CC97889.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qnetworkinterface.h.78F40F77B34A8FD7.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qnetworkproxy.h.B2C1FD82F619A187.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qnetworkreply.h.AA8A42D7FEA6031A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QNetworkRequest.ADC6E8FFF62745A1.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qnetworkrequest.h.077AB3CBEC2E22CC.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qnetworkrequestfactory.h.0236617F2DB8E002.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qnumeric.h.77666B480FBDDD08.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QObject.A4D2320C3C34474F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qobject.h.378633EB894FA577.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qobject_impl.h.FABC4E8150E3F191.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qobjectcleanuphandler.h.A50174037D622F24.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qobjectdefs.h.2A74F25425B9B1B0.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qobjectdefs.h.6C6A971972201220.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qobjectdefs_impl.h.C0D3D588AB3DFFC4.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qocspresponse.h.99111C1EEF768E9A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qoffscreensurface.h.0773C6F517D4F1A1.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qoffscreensurface_platform.h.7FBE7395A14D0556.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qopengl.h.6C2A1CBF6316FB49.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qopenglcontext.h.C1FADE138F4D6C69.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qopenglcontext_platform.h.C5AC063A4D8D1DAF.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qopenglext.h.1359BF4C953399FC.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qopenglextrafunctions.h.96B0C7E5CDCEFB0B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qopenglfunctions.h.D7FAB66416BBEE19.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qoperatingsystemversion.h.834A3E46AA84068F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qoverload.h.FD322AB876556DA1.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qpagedpaintdevice.h.8A4271ABDFA0CFD0.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qpagelayout.h.BB83F3C0A3893028.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qpageranges.h.0D53815E6C18D25C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qpagesize.h.1D25EB86BE8510AC.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QPaintDevice.D803BE1CD9BE8E60.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qpaintdevice.h.A7DFB8F8E95B5D24.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QPaintDeviceWindow.0DBA936199A1ECD8.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qpaintdevicewindow.h.B7AB265CF250FD23.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qpaintengine.h.6D563F0B03EC5D9C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qpainter.h.A4135F7ABFA7BD0C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qpainterpath.h.B0D54F7A3453B90E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qpair.h.E6212FBDA15A56E2.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qpalette.h.110C84496B84FD4C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qparallelanimationgroup.h.8627BFAA695D22FF.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qpassworddigestor.h.6702A6CBDDD54545.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qpauseanimation.h.38686A7AF52A8438.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qpdfwriter.h.83FB31C5E4D3D615.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qpen.h.E4876D29CF8F380F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qpermissions.h.A8C3C3FC185B3E88.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qpicture.h.2B51A8DCB028677F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qpixelformat.h.E0A794379D353FC2.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qpixmap.h.467BB842A775202D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qpixmapcache.h.018EB8338489DBE1.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qplugin.h.5C0BD239D05A81FA.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qpluginloader.h.65299E734FCBBFE3.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qpoint.h.8C68A5B329E9377C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qpointer.h.8F446294FEA9F74F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QPointF.1E31C434A12CA028.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qpointingdevice.h.0C4D13A46F0EE8C4.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qpolygon.h.5CBD62B9F0BC5706.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qprocess.h.9C94890BF97077BE.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qprocessordetection.h.C97A4BDAEA044FFD.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qpromise.h.3C8F9359F03B398A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qproperty.h.8B83648D616EA5A0.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qpropertyanimation.h.B70F1EAC8A24528E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qpropertyprivate.h.FE2A8FB699528E9B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qquaternion.h.896F96BE8ED3EC4A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qqueue.h.6D110C008CDE3596.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qrandom.h.85C9525D162127BA.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qrasterwindow.h.D5DCAACD9CAE0F96.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qrawfont.h.FE8B1EE540304993.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qreadwritelock.h.728A2565ECB2D3F4.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QRect.2A67B8EE7B5774D3.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qrect.h.AF9F4A2B5BED02CD.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qrefcount.h.7C1A07E9203CBE64.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qregion.h.069EA10DB42AD98C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qregularexpression.h.4604060A8C3B41D2.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qresource.h.FBA540FB5F4BEEEB.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qrestaccessmanager.h.17D613C18E85F97A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qrestreply.h.7E53FCF45CF76A7D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qresultstore.h.0A767F061374564C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qrgb.h.08D6085BFC730549.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qrgba64.h.C0D3819A0ED895EE.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qrgbafloat.h.7EFC994B3F91EB51.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qrunnable.h.B9337D6223E70625.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsavefile.h.DDBAE47FFC72FAD1.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qscopedpointer.h.6A2F12BED1D92A7A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qscopedvaluerollback.h.76EDAA6BFC5677A5.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qscopeguard.h.6D8072CD310861EA.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qscreen.h.286D0DE837F14D01.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qscreen_platform.h.D63F17D5B1B43329.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qscreencapture.h.F82F48886F46AC7E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qscrollarea.h.41CA7F26717EA43C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsemaphore.h.CCD8813056E3582B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsequentialanimationgroup.h.D6CF601E31808547.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsequentialiterable.h.7AF3899C119C7F16.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsessionmanager.h.7948FC614203B19F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qset.h.B0638A7252FD5E95.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsettings.h.51843AAB1FB50C52.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qshareddata.h.725B80A9D6CE35E6.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qshareddata_impl.h.08DE45AE81813B08.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QSharedDataPointer.253B5F4C765755EF.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsharedmemory.h.24D5F0F08117B7AC.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsharedpointer.h.2CEEC27710D22D74.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsharedpointer_impl.h.292ED69934F68421.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qshortcut.h.C5330961D2802D36.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsignalmapper.h.2B900A4C4B81A77F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsimd.h.941B850A0F065E3A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QSize.2AA6836CEB92CF17.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsize.h.A498EA30C6C10EE2.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QSizeF.E55F60F140771207.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsizepolicy.h.DB7F436F4AB26555.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsocketnotifier.h.429B2609D6825051.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsortfilterproxymodel.h.DF9201B1F4905C32.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsoundeffect.h.C53E3C4D15AE2CAB.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qspan.h.DC1656371E397842.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qssl.h.0FAC61983D2CC49E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsslcertificate.h.3937D154434686CD.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsslcertificateextension.h.05A9891B4D313078.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsslcipher.h.73812FF40CB21B66.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QSslConfiguration.98DCCCFF7EB72299.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsslconfiguration.h.4E64FE8735EBFBA2.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qssldiffiehellmanparameters.h.DF40F1104C19E527.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsslellipticcurve.h.1BA6AC97EC675CD3.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QSslError.B35BBAB6479D32D2.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsslerror.h.AC6A48F71DE51685.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsslkey.h.47110CE68720988E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QSslPreSharedKeyAuthenticator.41A5789E642EB593.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsslpresharedkeyauthenticator.h.E1E3278330A377EB.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsslserver.h.1FD56DEE2D5F9EC8.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QSslSocket.52E8536E3EBE9D2A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsslsocket.h.65D5D91173BB07FE.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qstack.h.C07D58A72D1B8C49.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qstandarditemmodel.h.49600BAD5C278FFF.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qstandardpaths.h.F8AE87A6EE191A50.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qstaticlatin1stringmatcher.h.8B482986A939284A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qstatictext.h.D3A929D11931522D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QStatusBar.4F5E63E022B83BFC.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qstatusbar.h.BA69649A9D67A101.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qstorageinfo.h.28818CEA30750871.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QString.C203B0FD2B4AE0AE.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qstring.h.7CEA5901E70115B1.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qstringalgorithms.h.9127A4A383B18421.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qstringbuilder.h.FAC0D106125E0626.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qstringconverter.h.754135FB7E21CBC9.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qstringconverter_base.h.47F7434F7D79FC73.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qstringfwd.h.629A7A1C4E57C8AF.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QStringList.DA8F5317D89FB7DF.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qstringlist.h.DDEBE47A5B362215.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qstringlistmodel.h.C1E6429BDA675A15.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qstringliteral.h.7257A9E1A9182FE0.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qstringmatcher.h.0B089E8C3E24BD25.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qstringtokenizer.h.B89065A8D70D10E5.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qstringview.h.E3CA4EEB6B9F52BD.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qstylehints.h.5D17AC686080B91B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsurface.h.43D8264A8BF56F61.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QSurfaceFormat.B8B76B8309A6B184.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsurfaceformat.h.ADF23485769C43D8.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qswap.h.04826C38F8DC46F8.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsyntaxhighlighter.h.7A8FFBBA96636E22.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsysinfo.h.B19FE2309EE300F7.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsystemdetection.h.B8A031788B63449B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qsystemsemaphore.h.9E650F3C9F30C578.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtabwidget.h.205C9158803161BD.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtaggedpointer.h.A8EB402C6D68E8F8.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtaudio.h.C2265F66E3E06CF5.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtclasshelpermacros.h.F9B8497C1BA8F12D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtconfiginclude.h.FFD8D3FEAB9CFE2A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtconfigmacros.h.E1C4BDC79C0CD9E5.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtcore-config.h.3FA6BA2D989040C0.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QtCore.1661A50784DA812B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QtCoreDepends.1033AD567BA2542C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtcoreexports.h.659EF553BE5D7058.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtcoreversion.h.4411B84483D41212.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QTcpServer.6604253DBE83BBA4.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtcpserver.h.EEAA8CEF6286F763.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtcpsocket.h.5BBB1B0B7DFDAC39.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtdeprecationmarkers.h.B55FEEE23ACDEF9E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtemporarydir.h.9A4B0D8BFECB92C7.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtemporaryfile.h.49A100F3FE7C2517.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtenvironmentvariables.h.EE381B5A47181F22.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtextboundaryfinder.h.6A6C7C61B56EC8D7.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtextcursor.h.40E08FC40D50E740.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtextdocument.h.BFC6815FF902E4D1.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtextdocumentfragment.h.188D45970061440F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtextdocumentwriter.h.539B433822539B6D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtextformat.h.E1308BB898D0ED8B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtextlayout.h.FA63C263D5DCB374.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtextlist.h.8F20B5BAA29DF5B3.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtextobject.h.0BA0C6B531F2FEE7.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtextoption.h.59124848976DBB33.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtextstream.h.FEF34EDF9BD9230E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtexttable.h.7FB7BE104408EC4C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtgui-config.h.B99C5BCB218B93B3.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QtGui.E0D624B5CE04562A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QtGuiDepends.AA571767440E0080.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtguiexports.h.B6988FE1E76E5195.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtguiglobal.h.CAE60C89C40AEA12.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtguiversion.h.A8747352732CD24E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qthread.h.C86483F2D875063F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qthreadpool.h.5BB3D0172FAC1DD4.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qthreadstorage.h.73698B8AFAB4E9FF.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtimeline.h.BD5473D93DF96850.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QTimer.22BB49BD44A685D9.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtimer.h.5850CE73EA50604C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtimezone.h.CF654DE1C7EE3FD2.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtipccommon.h.8A6038CC0D3E03CB.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtmetamacros.h.392537E84FC03F42.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtmultimedia-config.h.764EF9581A26F1B1.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QtMultimedia.4290F6B33524F93D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QtMultimediaDepends.86A21FC9465711CF.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtmultimediaexports.h.A30F5AF14D62D9FD.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtmultimediaglobal.h.C623B83D69937562.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtmultimediaversion.h.F70DD4CB9F22C9F9.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtnetwork-config.h.94BB520FF1BFA067.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QtNetwork.7142BA031F1D8679.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QtNetworkDepends.5A093B4CE2733550.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtnetworkexports.h.BBC0538E69A56BCA.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtnetworkglobal.h.69E8B05305CB4570.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtnetworkversion.h.649636184C23742E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtnoop.h.45489C2B537C0F6D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtpreprocessorsupport.h.C512DCA3E6A67DCC.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QTransform.9898AC58B5E153BE.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtransform.h.C4D24A296EEA3C6B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtranslator.h.0ECB6BAC56354326.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtransposeproxymodel.h.FC78A96B5948047F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtresource.h.FC539550DF99BB6F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtsan_impl.h.25B72C8FB488B546.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtsymbolmacros.h.898696D0BD375DA9.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qttranslation.h.45DCFE459D1F1A30.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qttypetraits.h.49BEF8F6DEFAC1AC.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtversion.h.2EE41CF0CE6A6C3A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtversionchecks.h.51AFC08CE6E2A9D2.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtvideo.h.95EC5BB36D37DD9E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtwidgets-config.h.37A79648695933AF.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtwidgetsexports.h.5C8A5D81DD52985D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtwidgetsglobal.h.D06A0F5DB51D0A11.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtypeinfo.h.B7229FD19540C587.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtyperevision.h.1C0FB0237FE52F67.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qtypes.h.B3DB62309C114BB7.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qudpsocket.h.6B4AAE0C670305CC.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qundogroup.h.18105BB513DB28EB.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qundostack.h.10A8CC7EB94C63B6.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/quoted_string.h.750B575210514E1B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QUrl.45A7EC8D9CA8DBE2.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qurl.h.AC1D8D432342DE3C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qurlquery.h.188784EDA4A13201.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qutf8stringview.h.0F021A23E551535F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/quuid.h.A2193A8846E4483E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qvalidator.h.DCD69386B6FF3CF6.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QVariant.FB67A96B225A6011.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qvariant.h.48CCD8A44219DA66.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qvariantanimation.h.0B409E0E95C0E783.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qvarianthash.h.8EB339121B200171.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qvariantlist.h.0C3177978D97BDFB.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qvariantmap.h.2E51838EA00F2197.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qvarlengtharray.h.36352A9BF4CF9810.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QVector.971A05F959B5ACE6.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qvector.h.D32F932918133891.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qvector2d.h.DB5778E311F708BD.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qvector3d.h.EEF16C9B1AA07719.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qvector4d.h.D7FF3197B47CC67D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qvectornd.h.9D737D7B9D2AB691.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qversionnumber.h.B0E7B3E2693D0F10.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qversiontagging.h.588023F59441FB2B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qvideoframe.h.E3A10386841A2022.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qvideoframeformat.h.12CBFA399AB77020.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qvideosink.h.CE159A1978ABAD29.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qwaitcondition.h.94D77E1AF92D334B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qwavedecoder.h.7C134F965C2C5989.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QWidget.FE406CB0BEAB3675.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qwidget.h.E8F533E924AB76FD.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/QWindow.A44D758EF4E5B88E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qwindow.h.A6392AC2E2304378.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qwindowcapture.h.70CD7C217762921F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qwindowdefs.h.6DAE795FD5FD2615.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qwindowdefs_win.h.2C618DE24A44263E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qwindowsmimeconverter.h.E60C7D7ED5E2A21A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qwineventnotifier.h.E0BAF9FBC58405D6.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qxmlstream.h.7778C4F226817A76.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qxpfunctional.h.AC52201F60E186E7.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qxptype_traits.h.3EC5DA390BD47341.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/qyieldcpu.h.EB0CD81A68242C3C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/random.54759586A91B9599.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/random.h.65EDE1F36E5268E2.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/random.tcc.34FA67F28B16D67B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/range_access.h.E972D2E41CB62A8D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/raointintrin.h.C74F19B53ECB2799.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ratio.9404108CE36F449D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/rdseedintrin.h.739E5C1593CFF167.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/refwrap.h.5E74789BA844972C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/riemann_zeta.tcc.F1AE3922F2A6AAA0.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/rtmintrin.h.50843FE8EF722151.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/score.cpp.F2064C5B2B14550D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/score.h.88B5612FB02F6FD7.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/serializeintrin.h.A09986A4BF7EA987.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/sgxintrin.h.FDA4F0637CB75109.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/sha512intrin.h.893543008560D19D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/shaintrin.h.8F088866E6A971AF.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/shared_mutex.6998C0F0E7DFCA94.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/shared_ptr.h.D2E242F45B82CB36.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/shared_ptr_atomic.h.E32C827A8A1B0F73.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/shared_ptr_base.h.4A555920B3F03717.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/signal.h.E5BCF412F9B9683F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/sm3intrin.h.982223D341869C8A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/sm4intrin.h.D380F3FDD6D97B0D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/smmintrin.h.485EAEAC1A1A5DEB.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/source_location.655932A6F133203B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/specfun.h.0BF5A69DD042CCAE.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/special_function_util.h.8E6DBBBFBF598396.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/sstream.F627532F40C1337C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/sstream.tcc.A94864D518825F6C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/std_abs.h.4F517C13A2BEA29C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/std_function.h.B8D2EA025142EDCD.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/std_mutex.h.3CAF59AD71AFA538.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/std_thread.h.3A31AA121C659D4A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stdarg.h.536B950B9ECF45E1.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stdbool.h.5CECF8612978A4CF.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stddef.h.8875EC8D799B89F2.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stdexcept.40E8F10E93A74B17.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stdint.h.01B84827F9DC5F0F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stdint.h.BCDE6C7493552EDE.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stdio.h.CA7E14BCEAA695F0.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stdio_s.h.17B92ED41ABC3D86.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stdlib.h.1DDF124F775B45C3.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stdlib.h.577D2FE8A30F64AF.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stdlib_s.h.E4346BF7615F40A0.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_algo.h.3B57ECA0ED7CA3CB.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_algobase.h.3F8C590C3CC264EA.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_bvector.h.7CDA2EEB603A81FE.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_construct.h.06E8E2F8906CAD7C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_function.h.D8CDE01A880400BC.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_heap.h.532A82D13203184A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_iterator.h.EB3F2EFB89F0BA9F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_iterator_base_funcs.h.BFDF9C9C10E17A17.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_iterator_base_types.h.2FDE262FF3972C29.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_list.h.BB7AA6272BCB631C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_map.h.20D5F5EEA76601B6.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_multimap.h.C91534B6E869B689.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_numeric.h.187CE8B37E0E8700.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_pair.h.43E3395CB73E4AAD.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_raw_storage_iter.h.EE78118AB23F46EA.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_relops.h.208A563128B458A2.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_tempbuf.h.9CF2B609AA149C35.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_tree.h.002A218E5E17ECE2.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_uninitialized.h.79CEBF5AE71209B3.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stl_vector.h.65F20B50C44EB38A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stream_iterator.h.BCE5ECBAD6CECC4C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/streambuf.B73CDC5FE080F8AB.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/streambuf.tcc.B232E64F2F6D81A0.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/streambuf_iterator.h.0E59D78C5D1E690C.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/string.376F6BC05C5E97ED.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/string.h.EB3B27CF7BBE2F5A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/string_conversions.h.14C6B68892C6FC8E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/string_s.h.9CAF0F17CE1B3C52.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/string_view.4EE47ED680E621B9.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/string_view.tcc.5BA5B6DDD570569D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/stringfwd.h.5C5BB67F0B570389.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/swprintf.inl.72ED9DF464103A38.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/system_error.5E700EBE8CF620A0.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/time.h.280D378A05D83C36.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/time_members.h.99174701112E7A7B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/timeb.h.042407E6A240311B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/timeb_s.h.BFA05425CE57CEBE.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/tmmintrin.h.51A92CE2047B3629.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/tsxldtrkintrin.h.AD1E43CE61C34D9F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/tuple.EF5D9E1A690CFC52.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/type_traits.2E15EAB6579EA758.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/type_traits.h.F914963619AD6651.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/typeinfo.5886496A484164A7.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/types.h.A72D19094973D10B.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/ui_clan.h.1F939465D92BD377.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/uintrintrin.h.7CEB0C4C848877C9.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/uniform_int_dist.h.C0FAA7A97208D534.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/unique_lock.h.C53B34D2461D7CD2.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/unique_ptr.h.5AA9E72CAFF91390.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/unordered_map.EA8A351B208FA7D2.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/unordered_map.h.29B6C28A1821381D.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/uses_allocator.h.D2EC5E2865A5EC19.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/uses_allocator_args.h.3A294A95D8C0D0CE.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/utility.A6AA4C7C68336937.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/vadefs.h.3DBC830778B446AD.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/vadefs.h.4484844AF490F007.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/vaesintrin.h.3C9539EB37A1DCCF.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/variant.7AF09012F5747B7E.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/vector.6636D003477B24C7.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/vector.tcc.24A6654837035B34.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/version.577AD919046E72E0.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/village.cpp.B76784F6B1453750.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/village.h.CA05A5F98A689382.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/vpclmulqdqintrin.h.FB2B0BF2A4753D36.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/waitpkgintrin.h.8772520A95A040A7.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/wbnoinvdintrin.h.F6CD9A0FDB5C899A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/wchar.h.2BB365429028778A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/wchar_s.h.8B6A26E9DA5076AF.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/wctype.h.5B05CC50947F450F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/wmmintrin.h.BF822848F0F53F5F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/x86gprintrin.h.E669ADF8E433A27A.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/xmmintrin.h.DF360A5D7D0D41C2.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/xsavecintrin.h.5EED5CCC0FBB0FCA.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/xsaveintrin.h.FDE7BBFBC3467FC9.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/xsaveoptintrin.h.7D6E1E50FCFE46AA.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/xsavesintrin.h.5A47AF62037F4D4F.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/.cache/clangd/index/xtestintrin.h.B3A1BF2E8D5B83DD.idx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc_clangd/compile_commands.json",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/debug/building.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/debug/cannonball.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/debug/clan.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/debug/enemy.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/debug/game.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/debug/health.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/debug/main.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/debug/moc_cannonball.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/debug/moc_cannonball.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/debug/moc_clan.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/debug/moc_clan.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/debug/moc_enemy.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/debug/moc_enemy.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/debug/moc_Player.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/debug/moc_Player.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/debug/moc_predefs.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/debug/object_script.ReverseCOC.Debug",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/debug/Player.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/debug/qrc_Demo_Sounds.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/debug/qrc_Demo_Sounds.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/debug/qrc_Resources.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/debug/qrc_Resources.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/debug/qrc_Resources_fr.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/debug/qrc_Resources_fr.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/debug/ReverseCOC.exe",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/debug/score.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/debug/village.o",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/release/object_script.ReverseCOC.Release",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qmake.stash",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Makefile",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Makefile.Debug",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/Makefile.Release",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/ui_clan.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".gitignore",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "228px-Cannon_Ball.png",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "barbarian-death-cry---clash-of-clans-made-with-Voicemod.mp3",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "building.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "building.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Cannon Clash of Clans Sound Effects HD.mp3",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Cannon Down.png",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Cannon Fire.mp3",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Cannon Left.png",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Cannon Right.png",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Cannon Up.png",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Cannon21B.png",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Cannon_Down_Left.png",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Cannon_Up_Left.png",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Cannon_Up_Right.png",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cannonball.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "cannonball.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "CannonFire.mp3",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "clan.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clan.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "clan.ui",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Demo_Sounds.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Enemy Attack.mp3",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Enemy Troop Intro.mp3",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Enemy Troop.mp3",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Enemy Walk.mp3",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "enemy.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "enemy.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Enemy.png",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Enemy_Attack_Demo.mpeg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "EnemyDeathCry.mp3",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Full_Walls.png",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Game Over sound effect.mp3",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "game.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "game.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "GameBackground.jpg",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Goblin_Hut_House.png",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "health.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "health.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main (1).cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "output-onlinepngtools.png",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Player.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Player.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Resources.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Resources_fr.qrc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ReverseCOC.pro",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ReverseCOC.pro.user",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ReverseCOC.pro.user.2c3cec4",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ReverseCOC.pro.user.f49b9ae",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "score.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "score.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "village.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "village.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : "VillageHouseA.png",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "VillageHouseB.webp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "WALL_A.png",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : "WALL_B.png",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "wave.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "wave.h",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "EXECUTABLE"
+}

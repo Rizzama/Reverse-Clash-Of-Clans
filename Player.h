@@ -24,6 +24,7 @@ public:
     void setLevel(int level);
     int getLevel() const;
     int getTimes();
+    void setTimes();
 
 public slots:
     void keyPressEvent(QKeyEvent *Event);
